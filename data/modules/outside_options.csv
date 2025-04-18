@@ -1,374 +1,374 @@
-code,course,prerequisites,department,total_students,avg_class_size,capped,units,mutually_exclusive_courses
-AC102,Elements of Financial Accounting,[],Accounting,564.0,15.0,False,0.5,[]
-AC103,"Elements of Management Accounting, Financial Management and Financial Institutions",[],Accounting,256.0,18.0,False,0.5,[]
-AC205,Intermediate Financial Accounting,"['AC102', 'AC105']",Accounting,,,False,0.5,[]
-AC206,Intermediate Management Accounting,"['AC103', 'AC106']",Accounting,,,False,0.5,[]
-AC311,Results Accountability and Management Control for Strategy Implementation,"['AC103', 'AC200', 'AC312', 'AC100']",Accounting,118.0,39.0,False,0.5,[]
-AC312,"Performance Measurement, Strategy, and Uncertainty","['AC103', 'AC200', 'AC311', 'AC100']",Accounting,122.0,61.0,160,0.5,[]
-AC331,Contemporary Issues in Financial Accounting,"['AC102', 'AC200', 'AC100']",Accounting,126.0,42.0,False,0.5,[]
-AC332,Financial Statement Analysis and Valuation,"['AC102', 'AC200', 'AC100']",Accounting,83.0,43.0,False,0.5,[]
-AC341,"Corporate Governance, Risk Management and Financial Audit",[],Accounting,76.0,39.0,False,0.5,[]
-AC342,"Accounting, Corporate Responsibility and Sustainability",[],Accounting,95.0,48.0,160,0.5,[]
-AN100,Being Human: Contemporary Themes in Social Anthropology,[],Anthropology,110.0,16.0,False,1.0,[]
-AN101,A History of Anthropological Theory,[],Anthropology,73.0,15.0,False,1.0,[]
-AN102,Ethnography through Mixed Media,[],Anthropology,49.0,13.0,60,1.0,[]
-AN200,"The Anthropology of Kinship, Sex and Gender",[],Anthropology,77.0,15.0,False,1.0,[]
-AN205,The Anthropology of Melanesia,[],Anthropology,,,False,0.5,[]
-AN221,The Anthropology of Christianity,[],Anthropology,,,False,0.5,[]
-AN223,The Anthropology of Southeast Asia,[],Anthropology,27.0,14.0,30,0.5,[]
-AN226,Political and Legal Anthropology,[],Anthropology,84.0,17.0,90,1.0,[]
-AN237,The Anthropology of Development,[],Anthropology,36.0,20.0,41,0.5,[]
-AN243,Children and Youth in Contemporary Ethnography,[],Anthropology,,,False,0.5,[]
-AN250,The Anthropology of South Asia,[],Anthropology,,,False,0.5,[]
-AN256,Economic Anthropology (1): Production and Exchange,[],Anthropology,63.0,12.0,False,0.5,[]
-AN269,The Anthropology of Amazonia,[],Anthropology,,,False,0.5,[]
-AN275,The Anthropology of Revolution,['AN100'],Anthropology,,,False,0.5,[]
-AN276,Anthropology and the Anthropocene,[],Anthropology,,,False,0.5,[]
-AN277,Topics in the Anthropology of sub-Saharan Africa,"['AN101', 'AN100']",Anthropology,14.0,8.0,False,0.5,[]
-AN280,Public Anthropology,"['AN101', 'AN100']",Anthropology,29.0,15.0,False,0.5,[]
-AN281,Health and Welfare: Anthropological Perspectives,[],Anthropology,,,False,0.5,[]
-AN283,"Anthropology, Art, and Poetics",[],Anthropology,60.0,15.0,False,0.5,[]
-AN284,"Anthropological Approaches to Race, Racism, and Decolonisation",[],Anthropology,,,False,0.5,[]
-AN285,Mind and Society,"['AN101', 'AN100', 'AN200']",Anthropology,,,False,0.5,[]
-AN292,Anthropological Entanglements in the Middle East,[],Anthropology,16.0,8.0,30,0.5,[]
-AN301,The Anthropology of Religion,[],Anthropology,43.0,13.0,False,1.0,[]
-AN357,Economic Anthropology (2): Transformation and Globalisation,[],Anthropology,51.0,17.0,False,0.5,[]
-AN393,"Language, Signs, World, Action! Introduction to Linguistic Anthropology","['AN101', 'AN100', 'AN200']",Anthropology,9.0,9.0,False,0.5,[]
-AN395,Digital Anthropology,[],Anthropology,,,False,0.5,[]
-DS101A,Fundamentals of Data Science,[],Data Science Institute,28.0,11.0,False,0.5,['DS101W']
-DS101W,Fundamentals of Data Science,[],Data Science Institute,8.0,5.0,False,0.5,['DS101A']
-DS105A,Data for Data Science,[],Data Science Institute,60.0,13.0,False,0.5,['DS105W']
-DS105W,Data for Data Science,[],Data Science Institute,52.0,10.0,False,0.5,['DS104A']
-DS202A,Data Science for Social Scientists,"['DS205', 'DS202W', 'ST101', 'DS105W', 'DS105A', 'DS202']",Data Science Institute,56.0,10.0,False,0.5,[]
-DS202W,Data Science for Social Scientists,"['DS205', 'ST101', 'DS105W', 'DS105A', 'DS202']",Data Science Institute,43.0,9.0,False,0.5,[]
-DS205,Advanced Data Manipulation,"['DS105', 'ME204', 'ST101']",Data Science Institute,,,False,0.5,[]
-EC1A3,Microeconomics I,[],Economics,751.0,16.0,False,0.5,['EC1A5']
-EC1A5,Microeconomics I,[],Economics,213.0,21.0,False,0.5,['EC1A3']
-EC1B3,Macroeconomics I,[],Economics,710.0,15.0,False,0.5,['EC1B5']
-EC1B5,Macroeconomics I,[],Economics,209.0,21.0,False,0.5,['EC1B3']
-EC2A3,Microeconomics II,"['MA107', 'MA100']",Economics,426.0,14.0,False,0.5,"['EC2A5,MG207']"
-EC2A5,Microeconomics II,[],Economics,131.0,12.0,False,0.5,[]
-EC2B3,Macroeconomics II,"['MA107', 'MA100']",Economics,359.0,18.0,False,0.5,['EC2B5']
-EC2B5,Macroeconomics II,[],Economics,142.0,13.0,False,0.5,[]
-EC2C3,Econometrics I,"['ST102', 'MA100', 'MA107', 'ST107', 'MA108']",Economics,400.0,20.0,False,0.5,['MG205']
-EC2C4,Econometrics II,"['ST107', 'ST102', 'MA107', 'MA100']",Economics,325.0,17.0,False,0.5,['MG205']
-EC302,Political Economy,"['ST102', 'EC220', 'MA100', 'EC221', 'EC202', 'MA107', 'EC201', 'ST109', 'ST107']",Economics,17.0,6.0,False,1.0,[]
-EC307,Development Economics,"['ST102', 'EC220', 'MA100', 'EC221', 'EC202', 'MA107', 'EC201', 'ST109', 'ST107']",Economics,243.0,20.0,False,1.0,[]
-EC310,Behavioural Economics,"['EC201', 'EC202']",Economics,22.0,11.0,False,1.0,[]
-EC311,History of Economics: How Theories Change,[],Economics,78.0,16.0,75,1.0,[]
-EC313,Industrial Economics,"['EC221', 'EC201', 'EC220', 'EC202']",Economics,40.0,13.0,False,1.0,[]
-EC317,Labour Economics,"['EC221', 'EC201', 'EC220', 'EC202']",Economics,27.0,5.0,False,1.0,[]
-EC319,Games and Economic Behaviour,"['EC201', 'EC202']",Economics,17.0,18.0,False,1.0,[]
-EC321,Monetary Economics and Aggregate Fluctuations,"['FM201', 'ST102', 'EC210', 'EC220', 'MA100', 'EC221', 'EC202', 'MA107', 'EC201', 'ST109', 'ST107']",Economics,59.0,15.0,False,1.0,[]
-EC325,Public Economics,"['EC221', 'EC201', 'EC220', 'EC202']",Economics,249.0,21.0,False,1.0,[]
-EC328,Economics of Diversity and Discrimination,[],Economics,,,False,0.5,[]
-EC330,Environmental Economics,[],Economics,35.0,12.0,False,1.0,[]
-EC333,Problems of Applied Econometrics,"['EC221', 'EC201', 'EC220', 'EC202']",Economics,22.0,11.0,False,1.0,[]
-EC334,Advanced Macroeconomics,"['FM201', 'EC210', 'EC220', 'MA100', 'EC221', 'MA107']",Economics,23.0,6.0,False,0.5,[]
-EC335,Economic Policy in the Global Economy,"['EC221', 'EC201', 'EC220', 'EC202']",Economics,27.0,7.0,False,0.5,[]
-EC336,Econometric Theory A,"['ST102', 'ST109', 'MA100']",Economics,7.0,9.0,False,0.5,[]
-EC337,Econometric Theory B,"['ST102', 'ST109', 'MA100']",Economics,8.0,10.0,False,0.5,[]
-EC338,International Trade,"['EC201', 'EC202']",Economics,55.0,9.0,False,0.5,[]
-EC339,International Macroeconomics,"['FM201', 'EC210']",Economics,65.0,22.0,False,0.5,[]
-EH101,"The Internationalisation of Economic Growth, 1870 to the present day",[],Economic History,131.0,12.0,False,1.0,[]
-EH102,Pre-industrial Economic History,[],Economic History,66.0,16.0,False,1.0,[]
-EH204,Money and Finance: From the Middle Ages to Modernity,[],Economic History,69.0,13.0,False,1.0,"['EH214,EH215']"
-EH207,"China since 1800: Culture, institutions and economic growth",[],Economic History,48.0,16.0,False,1.0,"['EH218,EH217']"
-EH209,The Family Economy in History: 1260 to the present day,[],Economic History,5.0,5.0,False,1.0,[]
-EH211,"Africa and the World Economy, 1500-2000",[],Economic History,,,False,1.0,[]
-EH214,Money and Finance: From the Middle Ages to the Eighteenth Century,[],Economic History,13.0,3.0,False,0.5,['EH204']
-EH215,Money and Finance: From the Eighteenth Century to Modernity,[],Economic History,22.0,4.0,False,0.5,['EH204']
-EH217,Chinese Economic History since 1800: A Chronology,[],Economic History,,,False,0.5,['EH207']
-EH218,Chinese Economic History since 1800: Economic Growth in a Historical Perspective,[],Economic History,,,False,0.5,['EH207']
-EH221,Boom and Bust: Macroeconomic History of the Modern World,[],Economic History,,,False,1.0,[]
-EH222,Economic History of the Middle East and North Africa,[],Economic History,30.0,15.0,False,1.0,[]
-EH225,Latin America and the International Economy,[],Economic History,42.0,14.0,False,1.0,[]
-EH238,The Origins of Growth,[],Economic History,31.0,17.0,False,1.0,[]
-EH240,Business and Economic Performance since 1945: Britain in International Context,[],Economic History,88.0,15.0,False,1.0,[]
-EH312,"Knowledge, Technology and Economy from the Middle Ages to Modernity",[],Economic History,14.0,14.0,18,1.0,[]
-EH316,Atlantic World Slavery,[],Economic History,10.0,11.0,18,1.0,[]
-FM101,Finance,[],Finance,499.0,20.0,False,0.5,[]
-FM210,Principles of Finance I,[],Finance,,,False,0.5,['FM214']
-FM211,Principles of Finance II,"['FM210', 'FM101']",Finance,,,False,0.5,['FM215']
-FM214,Principles of Finance I,"['ST102', 'MA100', 'MA107', 'ST109', 'ST107', 'MA108']",Finance,,,False,0.5,"['FM210', 'FM210']"
-FM215,Principles of Finance II,['FM214:'],Finance,,,False,0.5,['FM211']
-FM310,"Corporate Finance, Investments and Financial Markets I","['FM213', 'FM215', 'FM214', 'FM212', 'FM210', 'FM211']",Finance,,,False,0.5,[]
-FM311,"Corporate Finance, Investments and Financial Markets II","['FM213', 'FM212', 'FM310']",Finance,,,False,0.5,[]
-FM321,Risk Management and Modelling,"['ST201', 'ST102', 'MA100', 'FM213', 'FM212']",Finance,157.0,27.0,False,0.5,['ST330']
-FM322,Derivatives,"['FM213', 'FM212', 'MA100']",Finance,132.0,67.0,False,0.5,['ST330']
-GV100,Introduction to Political Theory,[],Government,316.0,15.0,False,1.0,[]
-GV225,Analytical Politics,['GV101'],Government,34.0,12.0,85,1.0,[]
-GV245,Democracy and Democratisation,['GV101'],Government,83.0,17.0,False,1.0,[]
-GV248,Power and Politics in the Modern World: Comparative Perspectives,['GV101'],Government,103.0,17.0,102,1.0,[]
-GV251,"Government, Politics and Public Policy in the European Union",['GV101'],Government,42.0,14.0,85,1.0,[]
-GV262,Contemporary Political Theory,[],Government,103.0,17.0,102,1.0,[]
-GV263,Public Policy Analysis,['GV101'],Government,73.0,12.0,85,1.0,[]
-GV264,Politics and Institutions in Europe,['GV101'],Government,53.0,13.0,85,1.0,[]
-GV267,Global Political Thought,[],Government,41.0,14.0,45,1.0,[]
-GV311,British Government,['GV101'],Government,31.0,11.0,68,1.0,[]
-GV313,Politics of Trade in Comparative Perspective,[],Government,12.0,6.0,34,0.5,[]
-GV324,Applied Quantitative Methods for Political Science,"['MA107', 'ST107']",Government,14.0,14.0,False,0.5,[]
-GV325,Topics in Political Economy,['GV225'],Government,9.0,9.0,17,0.5,[]
-GV330,Data Science Applications to Politics Research,"['GV249', 'GV101']",Government,16.0,8.0,34,0.5,[]
-GV333,Politics of Public Lands,"['GV100', 'GV101']",Government,,,False,0.5,[]
-GV362,Advanced Topics in Government: Executive Politics,"['GV100', 'GV101']",Government,,,False,0.5,[]
-GY100,Introduction to Geography,[],Geography and Environment,95.0,15.0,100,1.0,[]
-GY103,Contemporary Europe,[],Geography and Environment,73.0,18.0,False,1.0,[]
-GY120,"Environmental Change: Past, Present and Future",[],Geography and Environment,40.0,28.0,False,1.0,[]
-GY121,Sustainable Development,[],Geography and Environment,79.0,26.0,80,1.0,[]
-GY140,Introduction to Geographical Research,[],Geography and Environment,46.0,13.0,False,1.0,[]
-GY202,Introduction to Global Development,[],Geography and Environment,92.0,16.0,100,1.0,[]
-GY204,Political Geography,['GY100'],Geography and Environment,32.0,11.0,False,0.5,[]
-GY206,Urban Geography and Globalisation,[],Geography and Environment,66.0,17.0,70,0.5,[]
-GY207,"Economy, Society and Place",[],Geography and Environment,66.0,17.0,70,0.5,[]
-GY209,"The Economic Geography of Trade, Production and Development","['EC102', 'ST107', 'EC100']",Geography and Environment,72.0,16.0,80,0.5,[]
-GY210,The Economics of Cities,"['EC102', 'ST107', 'EC100']",Geography and Environment,83.0,14.0,95,0.5,[]
-GY212,Pathways in Human Geography,"['GY100', 'GY140']",Geography and Environment,47.0,16.0,False,0.5,[]
-GY220,Environment: Science and Society,[],Geography and Environment,36.0,25.0,False,1.0,[]
-GY222,Applied Environmental Economics,[],Geography and Environment,78.0,27.0,100,1.0,[]
-GY307,Regional Economic Development,[],Geography and Environment,62.0,23.0,75,0.5,[]
-GY308,The Economic Geography of Growth and Development,[],Geography and Environment,,,False,0.5,[]
-GY309,The Political Geography of Development,[],Geography and Environment,,,False,0.5,[]
-GY310,Urban Politics,[],Geography and Environment,57.0,15.0,65,0.5,[]
-GY311,The Political Economy of Urbanisation,[],Geography and Environment,40.0,14.0,False,0.5,[]
-GY313,"Firms and Economic Geography: Location, Technology and Innovation","['GY209', 'EC202', 'EC100', 'EC102', 'EC201', 'GY222']",Geography and Environment,45.0,17.0,False,0.5,[]
-GY314,The Economics of Housing Markets and Migration,"['GY209', 'EC202', 'EC100', 'EC102', 'EC201', 'GY222', 'GY210']",Geography and Environment,46.0,15.0,False,0.5,[]
-GY316,"Gender, Space and Power",[],Geography and Environment,39.0,14.0,45,0.5,[]
-GY317,Geographies of Urban Violence,[],Geography and Environment,34.0,9.0,False,0.5,[]
-GY326,Sustainable Business and Finance,[],Geography and Environment,84.0,89.0,90,0.5,[]
-GY327,Global Environmental Governance,[],Geography and Environment,38.0,10.0,False,0.5,[]
-GY328,Political Ecology of Development,[],Geography and Environment,47.0,13.0,False,0.5,[]
-GY331,Geographies of Global Migration,[],Geography and Environment,34.0,12.0,50,0.5,[]
-HY113,Empires and Resistance in Global History,[],International History,147.0,13.0,False,1.0,[]
-HY116,International Politics since 1914: Peace and War,[],International History,123.0,12.0,False,1.0,[]
-HY200,The Rights of Man: the History of Human Rights Discourse from the Antigone to Amnesty International,[],International History,28.0,15.0,30,1.0,[]
-HY206,"The International History of the Cold War, 1945-1989",[],International History,67.0,13.0,False,1.0,[]
-HY221,"The History of the Russian Empire, 1676-1825",[],International History,29.0,15.0,30,1.0,[]
-HY226,The Greater War c. 1912-1923,[],International History,15.0,15.0,15,1.0,[]
-HY235,"Modernity and the State in East Asia: China, Japan and Korea since 1840",[],International History,42.0,15.0,45,1.0,[]
-HY239,"People, Power and Protest in Latin America, c.1895 to the present day",[],International History,48.0,16.0,45,1.0,[]
-HY240,"From Empire to Commonwealth: war, race and imperialism in British History, 1780 to the present day",[],International History,30.0,15.0,30,1.0,[]
-HY241,What is History? Methods and Debates,[],International History,7.0,7.0,False,1.0,[]
-HY242,"The Soviet Union: Domestic, International and Intellectual History",[],International History,30.0,15.0,30,1.0,[]
-HY243,"Islamic Empires, 1400 - 1800",[],International History,,,False,1.0,[]
-HY245,The United States and the World since 1776,[],International History,60.0,15.0,60,1.0,[]
-HY246,"The Global Caribbean: Colonialism, Race and Revolutions 1780s-1980s",[],International History,24.0,12.0,30,1.0,[]
-HY247,"The History of Modern Turkey, 1789 to the Present",[],International History,,,False,1.0,[]
-HY248,Britain in the World: British Foreign Policy in the Twentieth Century ,[],International History,,,False,1.0,[]
-HY249,"War, Social Conflict and Nation Building: The History of Eastern and Southeastern Europe in the Twentieth Century",[],International History,,,False,1.0,[]
-HY311,Limited War During the Cold War Era: The US in Korea (1950-53) and Vietnam (1954-75),[],International History,7.0,8.0,15,1.0,[]
-HY315,"The European Enlightenment, c.1680-1799",[],International History,7.0,8.0,15,1.0,[]
-HY319,Napoleon and Europe,[],International History,28.0,14.0,30,1.0,[]
-HY320,The Cold War Endgame,[],International History,10.0,11.0,15,1.0,[]
-HY322,"Nazi Germany's War: Violence and Occupation in Europe, 1939-1945",[],International History,14.0,14.0,15,1.0,[]
-HY323,"Travel, Pleasure and Politics: The European Grand Tour, 1670-1825",[],International History,,,False,1.0,[]
-HY327,"The Anglo-American Special Relationship, 1939-89",[],International History,8.0,10.0,15,1.0,[]
-HY330,From Tea to Opium: China and the Global Market in the Long Eighteenth Century,[],International History,19.0,10.0,30,1.0,[]
-HY331,Henry Kissinger and the Global 1970s,[],International History,12.0,13.0,15,1.0,[]
-HY332,Interwar worlds: the cultural consequences of the First World War,[],International History,15.0,15.0,15,1.0,[]
-HY333,"People and Power in West African History, c. 1450 - 1850",[],International History,12.0,13.0,15,1.0,[]
-HY334,"Communication Revolutions in Latin America, c.1539 to the Present",[],International History,14.0,15.0,15,1.0,[]
-HY335,"History of Foreign Relations of the People’s Republic of China, 1949-2008",[],International History,15.0,15.0,15,1.0,[]
-HY336,The United States and nuclear weapons from the Manhattan project to the end of the Cold War ,[],International History,,,False,1.0,[]
-IR200,International Political Theory,['IR100'],International Relations,30.0,10.0,45,1.0,[]
-IR202,Foreign Policy Analysis 1,[],International Relations,136.0,15.0,120,1.0,[]
-IR203,International Organisations,[],International Relations,62.0,12.0,55,1.0,[]
-IR205,International Security,[],International Relations,130.0,14.0,120,1.0,[]
-IR206,International Political Economy,[],International Relations,126.0,13.0,120,1.0,[]
-LL106,Public Law,[],Law School,176.0,13.0,False,1.0,[]
-LL108,Criminal Law,[],Law School,207.0,12.0,False,1.0,[]
-LL142,Contract Law,[],Law School,182.0,14.0,False,1.0,[]
-LL143,Tort Law,[],Law School,166.0,13.0,False,1.0,[]
-LL201,Law and State Power,[],Law School,18.0,20.0,25,1.0,[]
-LL203,Company Law,[],Law School,88.0,15.0,90,1.0,[]
-LL204,Advanced Torts,['LL104'],Law School,21.0,21.0,25,1.0,[]
-LL205,Medical Law,[],Law School,94.0,12.0,120,1.0,[]
-LL210,Information Technology and the Law,[],Law School,58.0,10.0,90,1.0,[]
-LL212,Conflict of Laws,[],Law School,24.0,24.0,25,1.0,[]
-LL213,Commercial Law,"['LL142', 'LL275', 'LL276']",Law School,,,False,0.5,[]
-LL216,Freedom and the Law in Britain,[],Law School,,,False,0.5,[]
-LL217,European Human Rights Law,[],Law School,,,False,0.5,[]
-LL220,Technology Law and Regulation,[],Law School,,,False,0.5,[]
-LL221,Family Law,[],Law School,73.0,15.0,75,1.0,[]
-LL224,Regulation of Platforms,[],Law School,,,False,0.5,[]
-LL225,Critical Theory and Law,[],Law School,,,False,0.5,[]
-LL228,European Union Law,[],Law School,,,False,0.5,[]
-LL229,Law of the European Market,[],Law School,,,False,0.5,[]
-LL233,Law of Evidence,[],Law School,31.0,10.0,45,1.0,[]
-LL241,European Legal History,[],Law School,10.0,5.0,25,1.0,[]
-LL243,Constitutionalism Beyond Courts,[],Law School,,,False,0.5,[]
-LL244,Sports: Law and Governance,[],Law School,,,False,0.5,[]
-LL245,Feminist Legal Theory,[],Law School,,,False,0.5,[]
-LL250,Law and The Environment,[],Law School,23.0,23.0,25,1.0,[]
-LL251,Intellectual Property Law,[],Law School,40.0,20.0,50,1.0,[]
-LL257,Employment Law,[],Law School,24.0,24.0,25,1.0,[]
-LL272,Outlines of Modern Criminology,[],Law School,21.0,22.0,25,0.5,[]
-LL276,Property,[],Law School,,,False,1.0,[]
-LL279,Public International Law,[],Law School,,,False,0.5,[]
-LL280,Advanced Issues in Public International Law,['LL279'],Law School,,,False,0.5,[]
-LL284,Topics in Sentencing and Criminal Justice,[],Law School,18.0,18.0,25,0.5,[]
-LL293,Tax and Tax Avoidance,[],Law School,28.0,29.0,30,1.0,[]
-LL295,Media Law,[],Law School,25.0,25.0,25,1.0,[]
-LL300,Competition Law,[],Law School,43.0,15.0,45,1.0,[]
-LL303,Cultural Heritage and Art Law,[],Law School,9.0,9.0,25,0.5,[]
-LL304,Global Commodities: The Rise of International Law,[],Law School,,,False,0.5,[]
-LL306,Theories of Law,[],Law School,,,False,0.5,[]
-LL307,Justifying Political Authority,[],Law School,,,False,0.5,[]
-LL332,Advanced EU Law,[],Law School,,,False,0.5,[]
-LL342,International Protection of Human Rights,[],Law School,11.0,12.0,30,1.0,[]
-LN100,Russian Language and Society 3 (advanced),['LN102'],Language Centre,3.0,3.0,16,1.0,[]
-LN101,Russian Language and Society 1 (beginner),[],Language Centre,14.0,9.0,12,1.0,[]
-LN102,Russian Language and Society 2 (intermediate),['LN101'],Language Centre,10.0,11.0,12,1.0,[]
-LN104,Mandarin Language and Society Level 1 (Beginner),[],Language Centre,21.0,11.0,24,1.0,[]
-LN110,German Language and Society 3 (advanced),[],Language Centre,6.0,6.0,16,1.0,[]
-LN112,German Language and Society 2 (Intermediate),[],Language Centre,6.0,6.0,12,1.0,[]
-LN120,Spanish Language and Society 3 (advanced),['LN122'],Language Centre,24.0,9.0,24,1.0,[]
-LN121,Spanish Language and Society 1 (beginner),[],Language Centre,18.0,9.0,24,1.0,[]
-LN122,Spanish Language and Society 2 (intermediate),['LN121'],Language Centre,11.0,12.0,12,1.0,[]
-LN130,French Language and Society 3 (advanced),['LN132'],Language Centre,13.0,5.0,32,1.0,[]
-LN131,French Language and Society 1 (beginner),[],Language Centre,17.0,9.0,24,1.0,[]
-LN132,French Language and Society 2 (intermediate),['LN131'],Language Centre,24.0,12.0,24,1.0,[]
-LN140,Mandarin Language and Society 3 (Advanced),['LN142'],Language Centre,16.0,11.0,16,1.0,[]
-LN142,Mandarin Language and Society 2 (Intermediate),['LN104'],Language Centre,9.0,9.0,12,1.0,[]
-LN200,Russian Language and Society 4 (proficiency),['LN100'],Language Centre,4.0,4.0,16,1.0,[]
-LN210,German Language and Society 4 (proficiency),['LN110'],Language Centre,6.0,6.0,16,1.0,[]
-LN220,Spanish Language and Society 4 (proficiency),['LN120'],Language Centre,11.0,7.0,16,1.0,[]
-LN230,French Language and Society 4 (proficiency),['LN130'],Language Centre,20.0,10.0,32,1.0,[]
-LN240,Mandarin Language and Society 4 (Proficiency),['LN140'],Language Centre,11.0,11.0,16,1.0,[]
-LN250,English Literature and Society,[],Language Centre,32.0,8.0,32,1.0,[]
-LN251,Comparative Literature and 20th Century Political History,[],Language Centre,25.0,9.0,24,1.0,[]
-LN252,Contemporary Literature and Global Society,[],Language Centre,18.0,9.0,16,1.0,[]
-LN253,European Literature and Philosophy,[],Language Centre,23.0,8.0,24,1.0,[]
-LN254,Literature and Aspects of Ethics,[],Language Centre,27.0,9.0,24,1.0,[]
-LN270,Society and Language: Linguistics for Social Scientists,[],Language Centre,22.0,15.0,30,1.0,[]
-LN320,Spanish Language and Society 5 (mastery),['LN220'],Language Centre,4.0,4.0,12,1.0,[]
-LN330,French Language and Society 5 (mastery),['LN230'],Language Centre,6.0,7.0,12,1.0,[]
-LN340,Mandarin Language and Society 5 (Mastery),['LN240'],Language Centre,,,False,1.0,[]
-MA100,Mathematical Methods,[],Mathematics,444.0,15.0,False,1.0,"['MA108,MA207,MA107']"
-MA102,Mathematical Proof and Analysis,"['MA107', 'MA108', 'MA100']",Mathematics,63.0,29.0,False,0.5,['MA103']
-MA103,Introduction to Abstract Mathematics,"['MA160P', 'MA108', 'MA100']",Mathematics,168.0,29.0,False,1.0,['MA102']
-MA107,Quantitative Methods (Mathematics),"['MA108', 'MA100']",Mathematics,462.0,16.0,False,0.5,"['MA108,MA100']"
-MA203,Real Analysis,"['MA102', 'MA103']",Mathematics,165.0,17.0,False,0.5,[]
-MA207,Further Quantitative Methods (Mathematics),"['MA107', 'MA108', 'MA100']",Mathematics,92.0,18.0,False,0.5,"['MA100,MA108']"
-MA208,Optimisation Theory,"['MA103', 'MA100', 'MA203']",Mathematics,62.0,16.0,False,0.5,[]
-MA209,Differential Equations,"['MA102', 'MA100', 'MA212', 'MA203', 'MA103']",Mathematics,115.0,19.0,False,0.5,[]
-MA210,Discrete Mathematics,['MA103'],Mathematics,11.0,13.0,False,0.5,[]
-MA211,Algebra and Number Theory,"['MA103', 'MA100']",Mathematics,11.0,11.0,False,0.5,[]
-MA212,Further Mathematical Methods,['MA100'],Mathematics,274.0,17.0,False,1.0,[]
-MA213,Operations Research Techniques,"['MA107', 'ST107']",Mathematics,218.0,18.0,False,0.5,[]
-MA214,Algorithms and Data Structures,"['MA102', 'MA103', 'ST101']",Mathematics,60.0,15.0,90,0.5,[]
-MA222,Further Mathematical Methods (Linear Algebra),['MA100'],Mathematics,22.0,11.0,False,0.5,[]
-MA301,Mathematical Game Theory,"['MA107', 'MA100']",Mathematics,83.0,11.0,False,0.5,[]
-MA315,Algebra and its Applications,"['MA103', 'MA211']",Mathematics,,,False,0.5,[]
-MA316,Graph Theory,['MA103'],Mathematics,9.0,10.0,False,0.5,[]
-MA317,Complex Analysis,['MA203'],Mathematics,16.0,15.0,False,0.5,[]
-MA318,History and Culture of Mathematics,['MA100'],Mathematics,13.0,14.0,False,0.5,[]
-MA319,Partial Differential Equations,"['MA212', 'MA203']",Mathematics,16.0,17.0,False,0.5,[]
-MA320,Mathematics of Networks,"['MA102', 'MA103', 'MA108', 'MA100']",Mathematics,8.0,9.0,False,0.5,[]
-MA321,Measure Theoretic Probability,['MA203'],Mathematics,21.0,11.0,False,0.5,[]
-MA322,Mathematics of Finance and Valuation,['MA321'],Mathematics,17.0,9.0,False,0.5,[]
-MA324,Mathematical Modelling and Simulation,"['MA208', 'MA213', 'ST107']",Mathematics,42.0,20.0,45,0.5,['MA334']
-MA330,Game Theory for Collective Decisions,"['MA107', 'MA100', 'MA301']",Mathematics,20.0,23.0,False,0.5,[]
-MA333,Optimisation for Machine Learning,['MA208'],Mathematics,7.0,7.0,False,0.5,[]
-MC300,"Media, Communication and Power",[],Media and Communications,,3.0,False,0.5,[]
-MG205,Econometrics: Theory and Applications,"['MA107', 'ST107']",Management,198.0,17.0,204,1.0,"['EC2C3,EC2C4']"
-MG206,"Firms, Management and Competitive Advantage","['EC102', 'EC100']",Management,33.0,13.0,60,0.5,[]
-MG207,Managerial Economics,"['EC202', 'EC100', 'EC102', 'MA107', 'EC201']",Management,177.0,18.0,170,1.0,"['EC2A3,EC2A5']"
-MG209,E-business,[],Management,70.0,14.0,102,0.5,[]
-MG210,Corporate Social Responsibility and International Labour Standards,[],Management,46.0,14.0,60,0.5,[]
-MG212,Marketing,[],Management,265.0,17.0,272,0.5,[]
-MG213,Information Systems,[],Management,230.0,15.0,250,0.5,[]
-MG214,Human Resource Management,['MG105'],Management,172.0,20.0,180,0.5,[]
-MG228,Managing the Stone-Age Brain,[],Management,,,False,0.5,[]
-MG301,Strategy,"['EC202', 'EC100', 'EC102', 'MA107', 'MG207', 'EC201', 'ST107']",Management,142.0,14.0,170,1.0,[]
-MG302,Topics in Management Research,[],Management,65.0,19.0,75,0.5,[]
-MG303,International Business Strategy and Emerging Markets,"['EC102', 'MG307', 'EC100']",Management,155.0,35.0,175,0.5,['MG307']
-MG305,Innovation and Technology Management,[],Management,94.0,15.0,105,0.5,[]
-MG307,International Context of Management,['MG303'],Management,36.0,16.0,48,0.5,['MG303']
-MG308,Simulations for Managerial Decisions,['ST107'],Management,50.0,15.0,75,0.5,[]
-MG310,Strategic Decision Making,[],Management,,,False,0.5,[]
-MG311,Foundations of Behavioural Decision Science,[],Management,72.0,29.0,75,0.5,[]
-MG312,Science of People in Workplaces,[],Management,32.0,34.0,35,0.5,[]
-MG316,Brand Strategy,[],Management,103.0,20.0,120,0.5,[]
-MG317,Leading Organisational Change,['MG105'],Management,65.0,18.0,64,0.5,[]
-MY360,Quantitative Text Analysis,['ST107'],Methodology,12.0,13.0,30,0.5,[]
-MY361,Social Network Analysis,[],Methodology,11.0,10.0,False,0.5,[]
-PB100,Foundations of Behavioural Science,[],Psychological and Behavioural Science,59.0,16.0,64,1.0,[]
-PB101,Foundations of Psychological Science,[],Psychological and Behavioural Science,57.0,14.0,64,1.0,[]
-PB102,Social Psychology,[],Psychological and Behavioural Science,,,False,1.0,[]
-PB301,Cognition and Culture,"['PB101', 'PB100']",Psychological and Behavioural Science,,,False,0.5,[]
-PB302,Creativity and Innovation,"['PB101', 'PB100']",Psychological and Behavioural Science,,,False,0.5,[]
-PH103,The Big Questions: An Introduction to Philosophy,[],"Philosophy, Logic and Scientific Method",183.0,13.0,False,1.0,[]
-PH105,Historical and Global Perspectives on Philosophy,[],"Philosophy, Logic and Scientific Method",95.0,16.0,False,0.5,[]
-PH111,Introduction to Logic,[],"Philosophy, Logic and Scientific Method",233.0,17.0,False,0.5,[]
-PH112,Intermediate Logic and Probability,['PH111'],"Philosophy, Logic and Scientific Method",38.0,13.0,False,0.5,[]
-PH201,Philosophy of Science,[],"Philosophy, Logic and Scientific Method",42.0,14.0,False,1.0,[]
-PH214,"Philosophy, Morals and Politics",[],"Philosophy, Logic and Scientific Method",116.0,16.0,False,1.0,[]
-PH222,Philosophy and Public Policy,[],"Philosophy, Logic and Scientific Method",105.0,15.0,False,1.0,[]
-PH223,Mind and Metaphysics,[],"Philosophy, Logic and Scientific Method",31.0,17.0,False,0.5,[]
-PH224,Epistemology,"['PH111', 'PH101/PH104']","Philosophy, Logic and Scientific Method",52.0,14.0,False,0.5,[]
-PH225,Business and Organisational Ethics,[],"Philosophy, Logic and Scientific Method",133.0,16.0,136,0.5,[]
-PH226,Philosophy of Society,['PH103'],"Philosophy, Logic and Scientific Method",47.0,17.0,False,0.5,[]
-PH227,"Genes, Brains and Society",[],"Philosophy, Logic and Scientific Method",24.0,8.0,False,0.5,[]
-PH230,Einstein for Everyone: From time travel to the edge of the universe,[],"Philosophy, Logic and Scientific Method",46.0,16.0,False,0.5,[]
-PH232,Physics and Uncertainty: From Quantum Jumps to Stock Market Crashes,[],"Philosophy, Logic and Scientific Method",48.0,13.0,False,0.5,[]
-PH236,Set Theory,"['MA102', 'PH111', 'MA103']","Philosophy, Logic and Scientific Method",10.0,10.0,False,0.5,[]
-PH237,Advanced Logic,"['MA102', 'PH111', 'MA103']","Philosophy, Logic and Scientific Method",18.0,9.0,False,0.5,[]
-PH238,Philosophy of Language,"['PH111', 'PH101/PH104']","Philosophy, Logic and Scientific Method",,,False,0.5,[]
-PH239,"Anarchy, Authority and Evidence: Topics in Philosophy of Law ",[],"Philosophy, Logic and Scientific Method",55.0,16.0,False,0.5,[]
-PH240,The Ethics of Data and AI ,[],"Philosophy, Logic and Scientific Method",80.0,16.0,85,0.5,[]
-PH241,Animal Minds and Animal Ethics,[],"Philosophy, Logic and Scientific Method",,,False,0.5,[]
-PH311,Philosophy of Economics,[],"Philosophy, Logic and Scientific Method",124.0,16.0,False,1.0,[]
-PH333,Philosophy of Gender and Race,[],"Philosophy, Logic and Scientific Method",38.0,13.0,False,0.5,[]
-SO100,Key Concepts: Introduction to Social Theory,[],Sociology,63.0,13.0,75,1.0,[]
-SO110,"Power, Inequality, and Difference: Contemporary Themes in Sociology",[],Sociology,82.0,14.0,90,1.0,[]
-SO203,Political Sociology,[],Sociology,18.0,12.0,34,1.0,['SO243']
-SO309,Atrocity and Justice,[],Sociology,32.0,16.0,34,0.5,['IR312']
-SP111,Social Economics and Policy,[],Social Policy,47.0,16.0,45,1.0,[]
-SP112,Politics of Social Policy Making,[],Social Policy,46.0,15.0,43,1.0,[]
-SP210,Development and Social Change,[],Social Policy,24.0,12.0,30,1.0,[]
-SP230,Education Policy,[],Social Policy,36.0,18.0,34,1.0,[]
-SP231,"Poverty, Inequality, and Social Policy",[],Social Policy,35.0,18.0,30,1.0,[]
-SP232,Health and Social Care Policy,[],Social Policy,,,False,1.0,[]
-SP314,"Ethnicity, Race and Social Policy",[],Social Policy,,,False,0.5,[]
-SP315,Urbanisation and Social Policy in the Global Souths,[],Social Policy,11.0,12.0,15,0.5,[]
-SP331,"Sexuality, Everyday Lives and Social Policy in Developing Countries",[],Social Policy,16.0,17.0,15,0.5,[]
-SP332,Social Security Policies,[],Social Policy,13.0,15.0,15,0.5,[]
-SP333,"NGOs, Social Policy and Development",[],Social Policy,18.0,18.0,15,0.5,[]
-SP335,"Migration: Current Research, Critical Approaches",[],Social Policy,16.0,16.0,15,0.5,[]
-SP336,Behavioural Public Policy,[],Social Policy,17.0,17.0,15,0.5,[]
-SP372,Punishment and Penal Policy,[],Social Policy,16.0,16.0,15,0.5,[]
-SP374,"Riots, Disorder and Urban Violence",[],Social Policy,,,False,0.5,[]
-ST101,Programming for Data Science,['ST102/ST107'],Statistics,,,False,0.5,[]
-ST101A,Programming for Data Science,['ST102/ST107'],Statistics,101.0,26.0,120,0.5,[]
-ST101W,Programming for Data Science,['ST102/ST107'],Statistics,33.0,18.0,60,0.5,[]
-ST102,Elementary Statistical Theory,[],Statistics,405.0,21.0,False,1.0,"['ST110,ST102,ST109']"
-ST107,Quantitative Methods (Statistics),[],Statistics,494.0,21.0,False,0.5,"['ST110,ST102,ST109']"
-ST109,Elementary Statistical Theory I,[],Statistics,187.0,17.0,False,0.5,"['ST102,ST107']"
-ST110,Elementary Statistical Theory II,['ST109'],Statistics,2.0,1.0,False,0.5,"['ST107,ST102']"
-ST115,Managing and Visualising Data,"['ST102', 'ST109', 'ST107']",Statistics,77.0,26.0,90,0.5,[]
-ST201,Statistical Models and Data Analysis,['ST107'],Statistics,23.0,12.0,False,0.5,"['ST211,DS202']"
-ST202,"Probability, Distribution Theory and Inference","['ST109', 'ST102', 'MA107', 'MA100']",Statistics,186.0,23.0,False,1.0,[]
-ST205,Sample Surveys and Experiments,"['ST107', 'SP201']",Statistics,58.0,12.0,False,0.5,['ST307']
-ST206,Probability and Distribution Theory,"['ST109', 'ST102', 'MA107', 'MA100']",Statistics,61.0,7.0,False,0.5,[]
-ST207,Databases,['ST101'],Statistics,71.0,25.0,90,0.5,[]
-ST211,Applied Regression,"['ST102', 'ST109']",Statistics,90.0,23.0,90,0.5,['ST201']
-ST213,"Introduction to Pricing, Hedging and Optimization","['ST202', 'MA203']",Statistics,46.0,23.0,False,0.5,[]
-ST226,Actuarial Investigations: Financial,"['ST109', 'ST102', 'MA107', 'MA100']",Statistics,101.0,17.0,130,0.5,[]
-ST227,Survival Models,"['ST109', 'ST102', 'MA107', 'MA100']",Statistics,111.0,19.0,130,0.5,[]
-ST300,Regression and Generalised Linear Models,"['ST202', 'MA100']",Statistics,85.0,21.0,False,0.5,[]
-ST301,Actuarial Mathematics (Life),"['ST202', 'ST206', 'ST226', 'ST227']",Statistics,73.0,25.0,False,0.5,[]
-ST302,Stochastic Processes,"['ST202', 'ST206']",Statistics,133.0,45.0,False,0.5,[]
-ST303,Stochastic Simulation,"['ST202', 'ST206', 'ST302', 'ST306']",Statistics,67.0,33.0,60,0.5,[]
-ST304,Time Series and Forecasting,[],Statistics,52.0,13.0,False,0.5,[]
-ST306,Actuarial Mathematics (General),"['ST202', 'ST302']",Statistics,47.0,16.0,False,0.5,[]
-ST307,Aspects of Market Research,['ST107'],Statistics,19.0,6.0,20,0.5,"['ST205,ST327']"
-ST308,Bayesian Inference,"['ST102', 'MA100', 'MA107', 'ST109', 'ST202']",Statistics,63.0,21.0,75,0.5,[]
-ST309,Elementary Data Analytics,['ST107'],Statistics,65.0,16.0,75,0.5,['ST310']
-ST310,Machine Learning,"['ST102', 'ST109']",Statistics,90.0,23.0,100,0.5,['ST309']
-ST311,Artificial Intelligence,"['ST102', 'ST109', 'ST101']",Statistics,40.0,20.0,30,0.5,[]
-ST313,Ethics for Data Science,"['ST102', 'EC220', 'MA100', 'MA212', 'EC221', 'ST202', 'ST206']",Statistics,37.0,20.0,False,0.5,[]
-ST314,Multilevel and Longitudinal Models,"['ST201', 'ST102', 'ST109', 'ST211', 'ST107']",Statistics,23.0,21.0,30,0.5,[]
-ST326,Financial Statistics,"['ST202', 'ST206', 'ST211']",Statistics,65.0,33.0,False,0.5,[]
-ST327,Market Research: An Integrated Approach,"['ST102', 'ST203', 'MG205', 'MG202', 'ST109', 'ST107']",Statistics,58.0,15.0,60,1.0,['ST307']
-ST330,Stochastic and Actuarial Methods in Finance,"['ST202', 'ST206', 'ST302']",Statistics,61.0,31.0,False,1.0,"['FM231,FM322']"
+code,course,mutually_exclusive_courses,total_students,avg_class_size,capped,units,department
+AC102,Elements of Financial Accounting,[],564.0,15.0,False,0.5,Accounting
+AC103,"Elements of Management Accounting, Financial Management and Financial Institutions",[],256.0,18.0,False,0.5,Accounting
+AC205,Intermediate Financial Accounting,[],,,False,0.5,Accounting
+AC206,Intermediate Management Accounting,[],,,False,0.5,Accounting
+AC311,Results Accountability and Management Control for Strategy Implementation,[],118.0,39.0,False,0.5,Accounting
+AC312,"Performance Measurement, Strategy, and Uncertainty",[],122.0,61.0,160,0.5,Accounting
+AC331,Contemporary Issues in Financial Accounting,[],126.0,42.0,False,0.5,Accounting
+AC332,Financial Statement Analysis and Valuation,[],83.0,43.0,False,0.5,Accounting
+AC341,"Corporate Governance, Risk Management and Financial Audit",[],76.0,39.0,False,0.5,Accounting
+AC342,"Accounting, Corporate Responsibility and Sustainability",[],95.0,48.0,160,0.5,Accounting
+AN100,Being Human: Contemporary Themes in Social Anthropology,[],110.0,16.0,False,1.0,Anthropology
+AN101,A History of Anthropological Theory,[],73.0,15.0,False,1.0,Anthropology
+AN102,Ethnography through Mixed Media,[],49.0,13.0,60,1.0,Anthropology
+AN200,"The Anthropology of Kinship, Sex and Gender",[],77.0,15.0,False,1.0,Anthropology
+AN205,The Anthropology of Melanesia,[],,,False,0.5,Anthropology
+AN221,The Anthropology of Christianity,[],,,False,0.5,Anthropology
+AN223,The Anthropology of Southeast Asia,[],27.0,14.0,30,0.5,Anthropology
+AN226,Political and Legal Anthropology,[],84.0,17.0,90,1.0,Anthropology
+AN237,The Anthropology of Development,[],36.0,20.0,41,0.5,Anthropology
+AN243,Children and Youth in Contemporary Ethnography,[],,,False,0.5,Anthropology
+AN250,The Anthropology of South Asia,[],,,False,0.5,Anthropology
+AN256,Economic Anthropology (1): Production and Exchange,[],63.0,12.0,False,0.5,Anthropology
+AN269,The Anthropology of Amazonia,[],,,False,0.5,Anthropology
+AN275,The Anthropology of Revolution,[],,,False,0.5,Anthropology
+AN276,Anthropology and the Anthropocene,[],,,False,0.5,Anthropology
+AN277,Topics in the Anthropology of sub-Saharan Africa,[],14.0,8.0,False,0.5,Anthropology
+AN280,Public Anthropology,[],29.0,15.0,False,0.5,Anthropology
+AN281,Health and Welfare: Anthropological Perspectives,[],,,False,0.5,Anthropology
+AN283,"Anthropology, Art, and Poetics",[],60.0,15.0,False,0.5,Anthropology
+AN284,"Anthropological Approaches to Race, Racism, and Decolonisation",[],,,False,0.5,Anthropology
+AN285,Mind and Society,[],,,False,0.5,Anthropology
+AN292,Anthropological Entanglements in the Middle East,[],16.0,8.0,30,0.5,Anthropology
+AN301,The Anthropology of Religion,[],43.0,13.0,False,1.0,Anthropology
+AN357,Economic Anthropology (2): Transformation and Globalisation,[],51.0,17.0,False,0.5,Anthropology
+AN393,"Language, Signs, World, Action! Introduction to Linguistic Anthropology",[],9.0,9.0,False,0.5,Anthropology
+AN395,Digital Anthropology,[],,,False,0.5,Anthropology
+DS101A,Fundamentals of Data Science,['DS101W'],28.0,11.0,False,0.5,Data Science Institute
+DS101W,Fundamentals of Data Science,['DS101A'],8.0,5.0,False,0.5,Data Science Institute
+DS105A,Data for Data Science,['DS105W'],60.0,13.0,False,0.5,Data Science Institute
+DS105W,Data for Data Science,['DS104A'],52.0,10.0,False,0.5,Data Science Institute
+DS202A,Data Science for Social Scientists,[],56.0,10.0,False,0.5,Data Science Institute
+DS202W,Data Science for Social Scientists,[],43.0,9.0,False,0.5,Data Science Institute
+DS205,Advanced Data Manipulation,[],,,False,0.5,Data Science Institute
+EC1A3,Microeconomics I,['EC1A5'],751.0,16.0,False,0.5,Economics
+EC1A5,Microeconomics I,['EC1A3'],213.0,21.0,False,0.5,Economics
+EC1B3,Macroeconomics I,['EC1B5'],710.0,15.0,False,0.5,Economics
+EC1B5,Macroeconomics I,['EC1B3'],209.0,21.0,False,0.5,Economics
+EC2A3,Microeconomics II,"['EC2A5,MG207']",426.0,14.0,False,0.5,Economics
+EC2A5,Microeconomics II,[],131.0,12.0,False,0.5,Economics
+EC2B3,Macroeconomics II,['EC2B5'],359.0,18.0,False,0.5,Economics
+EC2B5,Macroeconomics II,[],142.0,13.0,False,0.5,Economics
+EC2C3,Econometrics I,['MG205'],400.0,20.0,False,0.5,Economics
+EC2C4,Econometrics II,['MG205'],325.0,17.0,False,0.5,Economics
+EC302,Political Economy,[],17.0,6.0,False,1.0,Economics
+EC307,Development Economics,[],243.0,20.0,False,1.0,Economics
+EC310,Behavioural Economics,[],22.0,11.0,False,1.0,Economics
+EC311,History of Economics: How Theories Change,[],78.0,16.0,75,1.0,Economics
+EC313,Industrial Economics,[],40.0,13.0,False,1.0,Economics
+EC317,Labour Economics,[],27.0,5.0,False,1.0,Economics
+EC319,Games and Economic Behaviour,[],17.0,18.0,False,1.0,Economics
+EC321,Monetary Economics and Aggregate Fluctuations,[],59.0,15.0,False,1.0,Economics
+EC325,Public Economics,[],249.0,21.0,False,1.0,Economics
+EC328,Economics of Diversity and Discrimination,[],,,False,0.5,Economics
+EC330,Environmental Economics,[],35.0,12.0,False,1.0,Economics
+EC333,Problems of Applied Econometrics,[],22.0,11.0,False,1.0,Economics
+EC334,Advanced Macroeconomics,[],23.0,6.0,False,0.5,Economics
+EC335,Economic Policy in the Global Economy,[],27.0,7.0,False,0.5,Economics
+EC336,Econometric Theory A,[],7.0,9.0,False,0.5,Economics
+EC337,Econometric Theory B,[],8.0,10.0,False,0.5,Economics
+EC338,International Trade,[],55.0,9.0,False,0.5,Economics
+EC339,International Macroeconomics,[],65.0,22.0,False,0.5,Economics
+EH101,"The Internationalisation of Economic Growth, 1870 to the present day",[],131.0,12.0,False,1.0,Economic History
+EH102,Pre-industrial Economic History,[],66.0,16.0,False,1.0,Economic History
+EH204,Money and Finance: From the Middle Ages to Modernity,"['EH214,EH215']",69.0,13.0,False,1.0,Economic History
+EH207,"China since 1800: Culture, institutions and economic growth","['EH218,EH217']",48.0,16.0,False,1.0,Economic History
+EH209,The Family Economy in History: 1260 to the present day,[],5.0,5.0,False,1.0,Economic History
+EH211,"Africa and the World Economy, 1500-2000",[],,,False,1.0,Economic History
+EH214,Money and Finance: From the Middle Ages to the Eighteenth Century,['EH204'],13.0,3.0,False,0.5,Economic History
+EH215,Money and Finance: From the Eighteenth Century to Modernity,['EH204'],22.0,4.0,False,0.5,Economic History
+EH217,Chinese Economic History since 1800: A Chronology,['EH207'],,,False,0.5,Economic History
+EH218,Chinese Economic History since 1800: Economic Growth in a Historical Perspective,['EH207'],,,False,0.5,Economic History
+EH221,Boom and Bust: Macroeconomic History of the Modern World,[],,,False,1.0,Economic History
+EH222,Economic History of the Middle East and North Africa,[],30.0,15.0,False,1.0,Economic History
+EH225,Latin America and the International Economy,[],42.0,14.0,False,1.0,Economic History
+EH238,The Origins of Growth,[],31.0,17.0,False,1.0,Economic History
+EH240,Business and Economic Performance since 1945: Britain in International Context,[],88.0,15.0,False,1.0,Economic History
+EH312,"Knowledge, Technology and Economy from the Middle Ages to Modernity",[],14.0,14.0,18,1.0,Economic History
+EH316,Atlantic World Slavery,[],10.0,11.0,18,1.0,Economic History
+FM101,Finance,[],499.0,20.0,False,0.5,Finance
+FM210,Principles of Finance I,['FM214'],,,False,0.5,Finance
+FM211,Principles of Finance II,['FM215'],,,False,0.5,Finance
+FM214,Principles of Finance I,"['FM210', 'FM210']",,,False,0.5,Finance
+FM215,Principles of Finance II,['FM211'],,,False,0.5,Finance
+FM310,"Corporate Finance, Investments and Financial Markets I",[],,,False,0.5,Finance
+FM311,"Corporate Finance, Investments and Financial Markets II",[],,,False,0.5,Finance
+FM321,Risk Management and Modelling,['ST330'],157.0,27.0,False,0.5,Finance
+FM322,Derivatives,['ST330'],132.0,67.0,False,0.5,Finance
+GV100,Introduction to Political Theory,[],316.0,15.0,False,1.0,Government
+GV225,Analytical Politics,[],34.0,12.0,85,1.0,Government
+GV245,Democracy and Democratisation,[],83.0,17.0,False,1.0,Government
+GV248,Power and Politics in the Modern World: Comparative Perspectives,[],103.0,17.0,102,1.0,Government
+GV251,"Government, Politics and Public Policy in the European Union",[],42.0,14.0,85,1.0,Government
+GV262,Contemporary Political Theory,[],103.0,17.0,102,1.0,Government
+GV263,Public Policy Analysis,[],73.0,12.0,85,1.0,Government
+GV264,Politics and Institutions in Europe,[],53.0,13.0,85,1.0,Government
+GV267,Global Political Thought,[],41.0,14.0,45,1.0,Government
+GV311,British Government,[],31.0,11.0,68,1.0,Government
+GV313,Politics of Trade in Comparative Perspective,[],12.0,6.0,34,0.5,Government
+GV324,Applied Quantitative Methods for Political Science,[],14.0,14.0,False,0.5,Government
+GV325,Topics in Political Economy,[],9.0,9.0,17,0.5,Government
+GV330,Data Science Applications to Politics Research,[],16.0,8.0,34,0.5,Government
+GV333,Politics of Public Lands,[],,,False,0.5,Government
+GV362,Advanced Topics in Government: Executive Politics,[],,,False,0.5,Government
+GY100,Introduction to Geography,[],95.0,15.0,100,1.0,Geography and Environment
+GY103,Contemporary Europe,[],73.0,18.0,False,1.0,Geography and Environment
+GY120,"Environmental Change: Past, Present and Future",[],40.0,28.0,False,1.0,Geography and Environment
+GY121,Sustainable Development,[],79.0,26.0,80,1.0,Geography and Environment
+GY140,Introduction to Geographical Research,[],46.0,13.0,False,1.0,Geography and Environment
+GY202,Introduction to Global Development,[],92.0,16.0,100,1.0,Geography and Environment
+GY204,Political Geography,[],32.0,11.0,False,0.5,Geography and Environment
+GY206,Urban Geography and Globalisation,[],66.0,17.0,70,0.5,Geography and Environment
+GY207,"Economy, Society and Place",[],66.0,17.0,70,0.5,Geography and Environment
+GY209,"The Economic Geography of Trade, Production and Development",[],72.0,16.0,80,0.5,Geography and Environment
+GY210,The Economics of Cities,[],83.0,14.0,95,0.5,Geography and Environment
+GY212,Pathways in Human Geography,[],47.0,16.0,False,0.5,Geography and Environment
+GY220,Environment: Science and Society,[],36.0,25.0,False,1.0,Geography and Environment
+GY222,Applied Environmental Economics,[],78.0,27.0,100,1.0,Geography and Environment
+GY307,Regional Economic Development,[],62.0,23.0,75,0.5,Geography and Environment
+GY308,The Economic Geography of Growth and Development,[],,,False,0.5,Geography and Environment
+GY309,The Political Geography of Development,[],,,False,0.5,Geography and Environment
+GY310,Urban Politics,[],57.0,15.0,65,0.5,Geography and Environment
+GY311,The Political Economy of Urbanisation,[],40.0,14.0,False,0.5,Geography and Environment
+GY313,"Firms and Economic Geography: Location, Technology and Innovation",[],45.0,17.0,False,0.5,Geography and Environment
+GY314,The Economics of Housing Markets and Migration,[],46.0,15.0,False,0.5,Geography and Environment
+GY316,"Gender, Space and Power",[],39.0,14.0,45,0.5,Geography and Environment
+GY317,Geographies of Urban Violence,[],34.0,9.0,False,0.5,Geography and Environment
+GY326,Sustainable Business and Finance,[],84.0,89.0,90,0.5,Geography and Environment
+GY327,Global Environmental Governance,[],38.0,10.0,False,0.5,Geography and Environment
+GY328,Political Ecology of Development,[],47.0,13.0,False,0.5,Geography and Environment
+GY331,Geographies of Global Migration,[],34.0,12.0,50,0.5,Geography and Environment
+HY113,Empires and Resistance in Global History,[],147.0,13.0,False,1.0,International History
+HY116,International Politics since 1914: Peace and War,[],123.0,12.0,False,1.0,International History
+HY200,The Rights of Man: the History of Human Rights Discourse from the Antigone to Amnesty International,[],28.0,15.0,30,1.0,International History
+HY206,"The International History of the Cold War, 1945-1989",[],67.0,13.0,False,1.0,International History
+HY221,"The History of the Russian Empire, 1676-1825",[],29.0,15.0,30,1.0,International History
+HY226,The Greater War c. 1912-1923,[],15.0,15.0,15,1.0,International History
+HY235,"Modernity and the State in East Asia: China, Japan and Korea since 1840",[],42.0,15.0,45,1.0,International History
+HY239,"People, Power and Protest in Latin America, c.1895 to the present day",[],48.0,16.0,45,1.0,International History
+HY240,"From Empire to Commonwealth: war, race and imperialism in British History, 1780 to the present day",[],30.0,15.0,30,1.0,International History
+HY241,What is History? Methods and Debates,[],7.0,7.0,False,1.0,International History
+HY242,"The Soviet Union: Domestic, International and Intellectual History",[],30.0,15.0,30,1.0,International History
+HY243,"Islamic Empires, 1400 - 1800",[],,,False,1.0,International History
+HY245,The United States and the World since 1776,[],60.0,15.0,60,1.0,International History
+HY246,"The Global Caribbean: Colonialism, Race and Revolutions 1780s-1980s",[],24.0,12.0,30,1.0,International History
+HY247,"The History of Modern Turkey, 1789 to the Present",[],,,False,1.0,International History
+HY248,Britain in the World: British Foreign Policy in the Twentieth Century ,[],,,False,1.0,International History
+HY249,"War, Social Conflict and Nation Building: The History of Eastern and Southeastern Europe in the Twentieth Century",[],,,False,1.0,International History
+HY311,Limited War During the Cold War Era: The US in Korea (1950-53) and Vietnam (1954-75),[],7.0,8.0,15,1.0,International History
+HY315,"The European Enlightenment, c.1680-1799",[],7.0,8.0,15,1.0,International History
+HY319,Napoleon and Europe,[],28.0,14.0,30,1.0,International History
+HY320,The Cold War Endgame,[],10.0,11.0,15,1.0,International History
+HY322,"Nazi Germany's War: Violence and Occupation in Europe, 1939-1945",[],14.0,14.0,15,1.0,International History
+HY323,"Travel, Pleasure and Politics: The European Grand Tour, 1670-1825",[],,,False,1.0,International History
+HY327,"The Anglo-American Special Relationship, 1939-89",[],8.0,10.0,15,1.0,International History
+HY330,From Tea to Opium: China and the Global Market in the Long Eighteenth Century,[],19.0,10.0,30,1.0,International History
+HY331,Henry Kissinger and the Global 1970s,[],12.0,13.0,15,1.0,International History
+HY332,Interwar worlds: the cultural consequences of the First World War,[],15.0,15.0,15,1.0,International History
+HY333,"People and Power in West African History, c. 1450 - 1850",[],12.0,13.0,15,1.0,International History
+HY334,"Communication Revolutions in Latin America, c.1539 to the Present",[],14.0,15.0,15,1.0,International History
+HY335,"History of Foreign Relations of the People’s Republic of China, 1949-2008",[],15.0,15.0,15,1.0,International History
+HY336,The United States and nuclear weapons from the Manhattan project to the end of the Cold War ,[],,,False,1.0,International History
+IR200,International Political Theory,[],30.0,10.0,45,1.0,International Relations
+IR202,Foreign Policy Analysis 1,[],136.0,15.0,120,1.0,International Relations
+IR203,International Organisations,[],62.0,12.0,55,1.0,International Relations
+IR205,International Security,[],130.0,14.0,120,1.0,International Relations
+IR206,International Political Economy,[],126.0,13.0,120,1.0,International Relations
+LL106,Public Law,[],176.0,13.0,False,1.0,Law School
+LL108,Criminal Law,[],207.0,12.0,False,1.0,Law School
+LL142,Contract Law,[],182.0,14.0,False,1.0,Law School
+LL143,Tort Law,[],166.0,13.0,False,1.0,Law School
+LL201,Law and State Power,[],18.0,20.0,25,1.0,Law School
+LL203,Company Law,[],88.0,15.0,90,1.0,Law School
+LL204,Advanced Torts,[],21.0,21.0,25,1.0,Law School
+LL205,Medical Law,[],94.0,12.0,120,1.0,Law School
+LL210,Information Technology and the Law,[],58.0,10.0,90,1.0,Law School
+LL212,Conflict of Laws,[],24.0,24.0,25,1.0,Law School
+LL213,Commercial Law,[],,,False,0.5,Law School
+LL216,Freedom and the Law in Britain,[],,,False,0.5,Law School
+LL217,European Human Rights Law,[],,,False,0.5,Law School
+LL220,Technology Law and Regulation,[],,,False,0.5,Law School
+LL221,Family Law,[],73.0,15.0,75,1.0,Law School
+LL224,Regulation of Platforms,[],,,False,0.5,Law School
+LL225,Critical Theory and Law,[],,,False,0.5,Law School
+LL228,European Union Law,[],,,False,0.5,Law School
+LL229,Law of the European Market,[],,,False,0.5,Law School
+LL233,Law of Evidence,[],31.0,10.0,45,1.0,Law School
+LL241,European Legal History,[],10.0,5.0,25,1.0,Law School
+LL243,Constitutionalism Beyond Courts,[],,,False,0.5,Law School
+LL244,Sports: Law and Governance,[],,,False,0.5,Law School
+LL245,Feminist Legal Theory,[],,,False,0.5,Law School
+LL250,Law and The Environment,[],23.0,23.0,25,1.0,Law School
+LL251,Intellectual Property Law,[],40.0,20.0,50,1.0,Law School
+LL257,Employment Law,[],24.0,24.0,25,1.0,Law School
+LL272,Outlines of Modern Criminology,[],21.0,22.0,25,0.5,Law School
+LL276,Property,[],,,False,1.0,Law School
+LL279,Public International Law,[],,,False,0.5,Law School
+LL280,Advanced Issues in Public International Law,[],,,False,0.5,Law School
+LL284,Topics in Sentencing and Criminal Justice,[],18.0,18.0,25,0.5,Law School
+LL293,Tax and Tax Avoidance,[],28.0,29.0,30,1.0,Law School
+LL295,Media Law,[],25.0,25.0,25,1.0,Law School
+LL300,Competition Law,[],43.0,15.0,45,1.0,Law School
+LL303,Cultural Heritage and Art Law,[],9.0,9.0,25,0.5,Law School
+LL304,Global Commodities: The Rise of International Law,[],,,False,0.5,Law School
+LL306,Theories of Law,[],,,False,0.5,Law School
+LL307,Justifying Political Authority,[],,,False,0.5,Law School
+LL332,Advanced EU Law,[],,,False,0.5,Law School
+LL342,International Protection of Human Rights,[],11.0,12.0,30,1.0,Law School
+LN100,Russian Language and Society 3 (advanced),[],3.0,3.0,16,1.0,Language Centre
+LN101,Russian Language and Society 1 (beginner),[],14.0,9.0,12,1.0,Language Centre
+LN102,Russian Language and Society 2 (intermediate),[],10.0,11.0,12,1.0,Language Centre
+LN104,Mandarin Language and Society Level 1 (Beginner),[],21.0,11.0,24,1.0,Language Centre
+LN110,German Language and Society 3 (advanced),[],6.0,6.0,16,1.0,Language Centre
+LN112,German Language and Society 2 (Intermediate),[],6.0,6.0,12,1.0,Language Centre
+LN120,Spanish Language and Society 3 (advanced),[],24.0,9.0,24,1.0,Language Centre
+LN121,Spanish Language and Society 1 (beginner),[],18.0,9.0,24,1.0,Language Centre
+LN122,Spanish Language and Society 2 (intermediate),[],11.0,12.0,12,1.0,Language Centre
+LN130,French Language and Society 3 (advanced),[],13.0,5.0,32,1.0,Language Centre
+LN131,French Language and Society 1 (beginner),[],17.0,9.0,24,1.0,Language Centre
+LN132,French Language and Society 2 (intermediate),[],24.0,12.0,24,1.0,Language Centre
+LN140,Mandarin Language and Society 3 (Advanced),[],16.0,11.0,16,1.0,Language Centre
+LN142,Mandarin Language and Society 2 (Intermediate),[],9.0,9.0,12,1.0,Language Centre
+LN200,Russian Language and Society 4 (proficiency),[],4.0,4.0,16,1.0,Language Centre
+LN210,German Language and Society 4 (proficiency),[],6.0,6.0,16,1.0,Language Centre
+LN220,Spanish Language and Society 4 (proficiency),[],11.0,7.0,16,1.0,Language Centre
+LN230,French Language and Society 4 (proficiency),[],20.0,10.0,32,1.0,Language Centre
+LN240,Mandarin Language and Society 4 (Proficiency),[],11.0,11.0,16,1.0,Language Centre
+LN250,English Literature and Society,[],32.0,8.0,32,1.0,Language Centre
+LN251,Comparative Literature and 20th Century Political History,[],25.0,9.0,24,1.0,Language Centre
+LN252,Contemporary Literature and Global Society,[],18.0,9.0,16,1.0,Language Centre
+LN253,European Literature and Philosophy,[],23.0,8.0,24,1.0,Language Centre
+LN254,Literature and Aspects of Ethics,[],27.0,9.0,24,1.0,Language Centre
+LN270,Society and Language: Linguistics for Social Scientists,[],22.0,15.0,30,1.0,Language Centre
+LN320,Spanish Language and Society 5 (mastery),[],4.0,4.0,12,1.0,Language Centre
+LN330,French Language and Society 5 (mastery),[],6.0,7.0,12,1.0,Language Centre
+LN340,Mandarin Language and Society 5 (Mastery),[],,,False,1.0,Language Centre
+MA100,Mathematical Methods,"['MA108,MA207,MA107']",444.0,15.0,False,1.0,Mathematics
+MA102,Mathematical Proof and Analysis,['MA103'],63.0,29.0,False,0.5,Mathematics
+MA103,Introduction to Abstract Mathematics,['MA102'],168.0,29.0,False,1.0,Mathematics
+MA107,Quantitative Methods (Mathematics),"['MA108,MA100']",462.0,16.0,False,0.5,Mathematics
+MA203,Real Analysis,[],165.0,17.0,False,0.5,Mathematics
+MA207,Further Quantitative Methods (Mathematics),"['MA100,MA108']",92.0,18.0,False,0.5,Mathematics
+MA208,Optimisation Theory,[],62.0,16.0,False,0.5,Mathematics
+MA209,Differential Equations,[],115.0,19.0,False,0.5,Mathematics
+MA210,Discrete Mathematics,[],11.0,13.0,False,0.5,Mathematics
+MA211,Algebra and Number Theory,[],11.0,11.0,False,0.5,Mathematics
+MA212,Further Mathematical Methods,[],274.0,17.0,False,1.0,Mathematics
+MA213,Operations Research Techniques,[],218.0,18.0,False,0.5,Mathematics
+MA214,Algorithms and Data Structures,[],60.0,15.0,90,0.5,Mathematics
+MA222,Further Mathematical Methods (Linear Algebra),[],22.0,11.0,False,0.5,Mathematics
+MA301,Mathematical Game Theory,[],83.0,11.0,False,0.5,Mathematics
+MA315,Algebra and its Applications,[],,,False,0.5,Mathematics
+MA316,Graph Theory,[],9.0,10.0,False,0.5,Mathematics
+MA317,Complex Analysis,[],16.0,15.0,False,0.5,Mathematics
+MA318,History and Culture of Mathematics,[],13.0,14.0,False,0.5,Mathematics
+MA319,Partial Differential Equations,[],16.0,17.0,False,0.5,Mathematics
+MA320,Mathematics of Networks,[],8.0,9.0,False,0.5,Mathematics
+MA321,Measure Theoretic Probability,[],21.0,11.0,False,0.5,Mathematics
+MA322,Mathematics of Finance and Valuation,[],17.0,9.0,False,0.5,Mathematics
+MA324,Mathematical Modelling and Simulation,['MA334'],42.0,20.0,45,0.5,Mathematics
+MA330,Game Theory for Collective Decisions,[],20.0,23.0,False,0.5,Mathematics
+MA333,Optimisation for Machine Learning,[],7.0,7.0,False,0.5,Mathematics
+MC300,"Media, Communication and Power",[],,3.0,False,0.5,Media and Communications
+MG205,Econometrics: Theory and Applications,"['EC2C3,EC2C4']",198.0,17.0,204,1.0,Management
+MG206,"Firms, Management and Competitive Advantage",[],33.0,13.0,60,0.5,Management
+MG207,Managerial Economics,"['EC2A3,EC2A5']",177.0,18.0,170,1.0,Management
+MG209,E-business,[],70.0,14.0,102,0.5,Management
+MG210,Corporate Social Responsibility and International Labour Standards,[],46.0,14.0,60,0.5,Management
+MG212,Marketing,[],265.0,17.0,272,0.5,Management
+MG213,Information Systems,[],230.0,15.0,250,0.5,Management
+MG214,Human Resource Management,[],172.0,20.0,180,0.5,Management
+MG228,Managing the Stone-Age Brain,[],,,False,0.5,Management
+MG301,Strategy,[],142.0,14.0,170,1.0,Management
+MG302,Topics in Management Research,[],65.0,19.0,75,0.5,Management
+MG303,International Business Strategy and Emerging Markets,['MG307'],155.0,35.0,175,0.5,Management
+MG305,Innovation and Technology Management,[],94.0,15.0,105,0.5,Management
+MG307,International Context of Management,['MG303'],36.0,16.0,48,0.5,Management
+MG308,Simulations for Managerial Decisions,[],50.0,15.0,75,0.5,Management
+MG310,Strategic Decision Making,[],,,False,0.5,Management
+MG311,Foundations of Behavioural Decision Science,[],72.0,29.0,75,0.5,Management
+MG312,Science of People in Workplaces,[],32.0,34.0,35,0.5,Management
+MG316,Brand Strategy,[],103.0,20.0,120,0.5,Management
+MG317,Leading Organisational Change,[],65.0,18.0,64,0.5,Management
+MY360,Quantitative Text Analysis,[],12.0,13.0,30,0.5,Methodology
+MY361,Social Network Analysis,[],11.0,10.0,False,0.5,Methodology
+PB100,Foundations of Behavioural Science,[],59.0,16.0,64,1.0,Psychological and Behavioural Science
+PB101,Foundations of Psychological Science,[],57.0,14.0,64,1.0,Psychological and Behavioural Science
+PB102,Social Psychology,[],,,False,1.0,Psychological and Behavioural Science
+PB301,Cognition and Culture,[],,,False,0.5,Psychological and Behavioural Science
+PB302,Creativity and Innovation,[],,,False,0.5,Psychological and Behavioural Science
+PH103,The Big Questions: An Introduction to Philosophy,[],183.0,13.0,False,1.0,"Philosophy, Logic and Scientific Method"
+PH105,Historical and Global Perspectives on Philosophy,[],95.0,16.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH111,Introduction to Logic,[],233.0,17.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH112,Intermediate Logic and Probability,[],38.0,13.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH201,Philosophy of Science,[],42.0,14.0,False,1.0,"Philosophy, Logic and Scientific Method"
+PH214,"Philosophy, Morals and Politics",[],116.0,16.0,False,1.0,"Philosophy, Logic and Scientific Method"
+PH222,Philosophy and Public Policy,[],105.0,15.0,False,1.0,"Philosophy, Logic and Scientific Method"
+PH223,Mind and Metaphysics,[],31.0,17.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH224,Epistemology,[],52.0,14.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH225,Business and Organisational Ethics,[],133.0,16.0,136,0.5,"Philosophy, Logic and Scientific Method"
+PH226,Philosophy of Society,[],47.0,17.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH227,"Genes, Brains and Society",[],24.0,8.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH230,Einstein for Everyone: From time travel to the edge of the universe,[],46.0,16.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH232,Physics and Uncertainty: From Quantum Jumps to Stock Market Crashes,[],48.0,13.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH236,Set Theory,[],10.0,10.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH237,Advanced Logic,[],18.0,9.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH238,Philosophy of Language,[],,,False,0.5,"Philosophy, Logic and Scientific Method"
+PH239,"Anarchy, Authority and Evidence: Topics in Philosophy of Law ",[],55.0,16.0,False,0.5,"Philosophy, Logic and Scientific Method"
+PH240,The Ethics of Data and AI ,[],80.0,16.0,85,0.5,"Philosophy, Logic and Scientific Method"
+PH241,Animal Minds and Animal Ethics,[],,,False,0.5,"Philosophy, Logic and Scientific Method"
+PH311,Philosophy of Economics,[],124.0,16.0,False,1.0,"Philosophy, Logic and Scientific Method"
+PH333,Philosophy of Gender and Race,[],38.0,13.0,False,0.5,"Philosophy, Logic and Scientific Method"
+SO100,Key Concepts: Introduction to Social Theory,[],63.0,13.0,75,1.0,Sociology
+SO110,"Power, Inequality, and Difference: Contemporary Themes in Sociology",[],82.0,14.0,90,1.0,Sociology
+SO203,Political Sociology,['SO243'],18.0,12.0,34,1.0,Sociology
+SO309,Atrocity and Justice,['IR312'],32.0,16.0,34,0.5,Sociology
+SP111,Social Economics and Policy,[],47.0,16.0,45,1.0,Social Policy
+SP112,Politics of Social Policy Making,[],46.0,15.0,43,1.0,Social Policy
+SP210,Development and Social Change,[],24.0,12.0,30,1.0,Social Policy
+SP230,Education Policy,[],36.0,18.0,34,1.0,Social Policy
+SP231,"Poverty, Inequality, and Social Policy",[],35.0,18.0,30,1.0,Social Policy
+SP232,Health and Social Care Policy,[],,,False,1.0,Social Policy
+SP314,"Ethnicity, Race and Social Policy",[],,,False,0.5,Social Policy
+SP315,Urbanisation and Social Policy in the Global Souths,[],11.0,12.0,15,0.5,Social Policy
+SP331,"Sexuality, Everyday Lives and Social Policy in Developing Countries",[],16.0,17.0,15,0.5,Social Policy
+SP332,Social Security Policies,[],13.0,15.0,15,0.5,Social Policy
+SP333,"NGOs, Social Policy and Development",[],18.0,18.0,15,0.5,Social Policy
+SP335,"Migration: Current Research, Critical Approaches",[],16.0,16.0,15,0.5,Social Policy
+SP336,Behavioural Public Policy,[],17.0,17.0,15,0.5,Social Policy
+SP372,Punishment and Penal Policy,[],16.0,16.0,15,0.5,Social Policy
+SP374,"Riots, Disorder and Urban Violence",[],,,False,0.5,Social Policy
+ST101,Programming for Data Science,[],,,False,0.5,Statistics
+ST101A,Programming for Data Science,[],101.0,26.0,120,0.5,Statistics
+ST101W,Programming for Data Science,[],33.0,18.0,60,0.5,Statistics
+ST102,Elementary Statistical Theory,"['ST110,ST102,ST109']",405.0,21.0,False,1.0,Statistics
+ST107,Quantitative Methods (Statistics),"['ST110,ST102,ST109']",494.0,21.0,False,0.5,Statistics
+ST109,Elementary Statistical Theory I,"['ST102,ST107']",187.0,17.0,False,0.5,Statistics
+ST110,Elementary Statistical Theory II,"['ST107,ST102']",2.0,1.0,False,0.5,Statistics
+ST115,Managing and Visualising Data,[],77.0,26.0,90,0.5,Statistics
+ST201,Statistical Models and Data Analysis,"['ST211,DS202']",23.0,12.0,False,0.5,Statistics
+ST202,"Probability, Distribution Theory and Inference",[],186.0,23.0,False,1.0,Statistics
+ST205,Sample Surveys and Experiments,['ST307'],58.0,12.0,False,0.5,Statistics
+ST206,Probability and Distribution Theory,[],61.0,7.0,False,0.5,Statistics
+ST207,Databases,[],71.0,25.0,90,0.5,Statistics
+ST211,Applied Regression,['ST201'],90.0,23.0,90,0.5,Statistics
+ST213,"Introduction to Pricing, Hedging and Optimization",[],46.0,23.0,False,0.5,Statistics
+ST226,Actuarial Investigations: Financial,[],101.0,17.0,130,0.5,Statistics
+ST227,Survival Models,[],111.0,19.0,130,0.5,Statistics
+ST300,Regression and Generalised Linear Models,[],85.0,21.0,False,0.5,Statistics
+ST301,Actuarial Mathematics (Life),[],73.0,25.0,False,0.5,Statistics
+ST302,Stochastic Processes,[],133.0,45.0,False,0.5,Statistics
+ST303,Stochastic Simulation,[],67.0,33.0,60,0.5,Statistics
+ST304,Time Series and Forecasting,[],52.0,13.0,False,0.5,Statistics
+ST306,Actuarial Mathematics (General),[],47.0,16.0,False,0.5,Statistics
+ST307,Aspects of Market Research,"['ST205,ST327']",19.0,6.0,20,0.5,Statistics
+ST308,Bayesian Inference,[],63.0,21.0,75,0.5,Statistics
+ST309,Elementary Data Analytics,['ST310'],65.0,16.0,75,0.5,Statistics
+ST310,Machine Learning,['ST309'],90.0,23.0,100,0.5,Statistics
+ST311,Artificial Intelligence,[],40.0,20.0,30,0.5,Statistics
+ST313,Ethics for Data Science,[],37.0,20.0,False,0.5,Statistics
+ST314,Multilevel and Longitudinal Models,[],23.0,21.0,30,0.5,Statistics
+ST326,Financial Statistics,[],65.0,33.0,False,0.5,Statistics
+ST327,Market Research: An Integrated Approach,['ST307'],58.0,15.0,60,1.0,Statistics
+ST330,Stochastic and Actuarial Methods in Finance,"['FM231,FM322']",61.0,31.0,False,1.0,Statistics
