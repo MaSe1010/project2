@@ -1,12 +1,12 @@
 course,department,total_students,avg_class_size,capped,units,prerequisites,mutually_exclusive
 Elements of Financial Accounting,Accounting,564.0,15.0,False,0.5,[],
 "Elements of Management Accounting, Financial Management and Financial Institutions",Accounting,256.0,18.0,False,0.5,[],
-Intermediate Financial Accounting,Accounting,,,False,0.5,"['AC102', 'AC105']",
+Intermediate Financial Accounting,Accounting,,,False,0.5,"['AC105', 'AC102']",
 Intermediate Management Accounting,Accounting,,,False,0.5,"['AC103', 'AC106']",
-Results Accountability and Management Control for Strategy Implementation,Accounting,118.0,39.0,False,0.5,"['AC312', 'AC100', 'AC103', 'AC200']",
-"Performance Measurement, Strategy, and Uncertainty",Accounting,122.0,61.0,160,0.5,"['AC100', 'AC103', 'AC200', 'AC311']",
-Contemporary Issues in Financial Accounting,Accounting,126.0,42.0,False,0.5,"['AC102', 'AC200', 'AC100']",
-Financial Statement Analysis and Valuation,Accounting,83.0,43.0,False,0.5,"['AC102', 'AC200', 'AC100']",
+Results Accountability and Management Control for Strategy Implementation,Accounting,118.0,39.0,False,0.5,"['AC100', 'AC200', 'AC312', 'AC103']",
+"Performance Measurement, Strategy, and Uncertainty",Accounting,122.0,61.0,160,0.5,"['AC100', 'AC311', 'AC200', 'AC103']",
+Contemporary Issues in Financial Accounting,Accounting,126.0,42.0,False,0.5,"['AC102', 'AC100', 'AC200']",
+Financial Statement Analysis and Valuation,Accounting,83.0,43.0,False,0.5,"['AC102', 'AC100', 'AC200']",
 "Corporate Governance, Risk Management and Financial Audit",Accounting,76.0,39.0,False,0.5,[],
 "Accounting, Corporate Responsibility and Sustainability",Accounting,95.0,48.0,160,0.5,[],
 Being Human: Contemporary Themes in Social Anthropology,Anthropology,110.0,16.0,False,1.0,[],
@@ -24,24 +24,24 @@ Economic Anthropology (1): Production and Exchange,Anthropology,63.0,12.0,False,
 The Anthropology of Amazonia,Anthropology,,,False,0.5,[],
 The Anthropology of Revolution,Anthropology,,,False,0.5,['AN100'],
 Anthropology and the Anthropocene,Anthropology,,,False,0.5,[],
-Topics in the Anthropology of sub-Saharan Africa,Anthropology,14.0,8.0,False,0.5,"['AN101', 'AN100']",
-Public Anthropology,Anthropology,29.0,15.0,False,0.5,"['AN101', 'AN100']",
+Topics in the Anthropology of sub-Saharan Africa,Anthropology,14.0,8.0,False,0.5,"['AN100', 'AN101']",
+Public Anthropology,Anthropology,29.0,15.0,False,0.5,"['AN100', 'AN101']",
 Health and Welfare: Anthropological Perspectives,Anthropology,,,False,0.5,[],
 "Anthropology, Art, and Poetics",Anthropology,60.0,15.0,False,0.5,[],
 "Anthropological Approaches to Race, Racism, and Decolonisation",Anthropology,,,False,0.5,[],
-Mind and Society,Anthropology,,,False,0.5,"['AN101', 'AN100', 'AN200']",
+Mind and Society,Anthropology,,,False,0.5,"['AN100', 'AN101', 'AN200']",
 Anthropological Entanglements in the Middle East,Anthropology,16.0,8.0,30,0.5,[],
 The Anthropology of Religion,Anthropology,43.0,13.0,False,1.0,[],
 Economic Anthropology (2): Transformation and Globalisation,Anthropology,51.0,17.0,False,0.5,[],
-"Language, Signs, World, Action! Introduction to Linguistic Anthropology",Anthropology,9.0,9.0,False,0.5,"['AN101', 'AN100', 'AN200']",
+"Language, Signs, World, Action! Introduction to Linguistic Anthropology",Anthropology,9.0,9.0,False,0.5,"['AN100', 'AN101', 'AN200']",
 Digital Anthropology,Anthropology,,,False,0.5,[],
 Fundamentals of Data Science,Data Science Institute,28.0,11.0,False,0.5,[],DS101W
 Fundamentals of Data Science,Data Science Institute,8.0,5.0,False,0.5,[],DS101A
 Data for Data Science,Data Science Institute,60.0,13.0,False,0.5,[],DS105W
 Data for Data Science,Data Science Institute,52.0,10.0,False,0.5,[],DS104A
-Data Science for Social Scientists,Data Science Institute,56.0,10.0,False,0.5,"['ST101', 'DS202', 'DS205', 'DS105W', 'DS202W', 'DS105A']",
-Data Science for Social Scientists,Data Science Institute,43.0,9.0,False,0.5,"['ST101', 'DS202', 'DS205', 'DS105W', 'DS105A']",
-Advanced Data Manipulation,Data Science Institute,,,False,0.5,"['ST101', 'ME204', 'DS105']",
+Data Science for Social Scientists,Data Science Institute,56.0,10.0,False,0.5,"['DS202', 'DS205', 'DS202W', 'DS105A', 'DS105W', 'ST101']",
+Data Science for Social Scientists,Data Science Institute,43.0,9.0,False,0.5,"['DS202', 'DS205', 'DS105A', 'DS105W', 'ST101']",
+Advanced Data Manipulation,Data Science Institute,,,False,0.5,"['ME204', 'ST101', 'DS105']",
 Microeconomics I,Economics,751.0,16.0,False,0.5,[],EC1A5
 Microeconomics I,Economics,213.0,21.0,False,0.5,[],EC1A3
 Macroeconomics I,Economics,710.0,15.0,False,0.5,[],EC1B5
@@ -50,24 +50,24 @@ Microeconomics II,Economics,426.0,14.0,False,0.5,"['MA100', 'MA107']","EC2A5,MG2
 Microeconomics II,Economics,131.0,12.0,False,0.5,[],
 Macroeconomics II,Economics,359.0,18.0,False,0.5,"['MA100', 'MA107']",EC2B5
 Macroeconomics II,Economics,142.0,13.0,False,0.5,[],
-Econometrics I,Economics,400.0,20.0,False,0.5,"['MA107', 'ST107', 'ST102', 'MA100', 'MA108']",MG205
-Econometrics II,Economics,325.0,17.0,False,0.5,"['MA100', 'MA107', 'ST107', 'ST102']",MG205
-Political Economy,Economics,17.0,6.0,False,1.0,"['MA107', 'EC202', 'EC221', 'ST107', 'ST102', 'ST109', 'EC220', 'MA100', 'EC201']",
-Development Economics,Economics,243.0,20.0,False,1.0,"['MA107', 'EC202', 'EC221', 'ST107', 'ST102', 'ST109', 'EC220', 'MA100', 'EC201']",
+Econometrics I,Economics,400.0,20.0,False,0.5,"['ST102', 'MA100', 'MA108', 'ST107', 'MA107']",MG205
+Econometrics II,Economics,325.0,17.0,False,0.5,"['ST102', 'MA100', 'MA107', 'ST107']",MG205
+Political Economy,Economics,17.0,6.0,False,1.0,"['EC221', 'ST102', 'EC202', 'MA100', 'EC220', 'ST107', 'ST109', 'EC201', 'MA107']",
+Development Economics,Economics,243.0,20.0,False,1.0,"['EC221', 'ST102', 'EC202', 'MA100', 'EC220', 'ST107', 'ST109', 'EC201', 'MA107']",
 Behavioural Economics,Economics,22.0,11.0,False,1.0,"['EC202', 'EC201']",
 History of Economics: How Theories Change,Economics,78.0,16.0,75,1.0,[],
-Industrial Economics,Economics,40.0,13.0,False,1.0,"['EC202', 'EC201', 'EC221', 'EC220']",
-Labour Economics,Economics,27.0,5.0,False,1.0,"['EC202', 'EC201', 'EC221', 'EC220']",
+Industrial Economics,Economics,40.0,13.0,False,1.0,"['EC221', 'EC202', 'EC201', 'EC220']",
+Labour Economics,Economics,27.0,5.0,False,1.0,"['EC221', 'EC202', 'EC201', 'EC220']",
 Games and Economic Behaviour,Economics,17.0,18.0,False,1.0,"['EC202', 'EC201']",
-Monetary Economics and Aggregate Fluctuations,Economics,59.0,15.0,False,1.0,"['MA107', 'EC210', 'EC221', 'ST107', 'ST102', 'EC220', 'ST109', 'EC202', 'MA100', 'EC201', 'FM201']",
-Public Economics,Economics,249.0,21.0,False,1.0,"['EC202', 'EC201', 'EC221', 'EC220']",
+Monetary Economics and Aggregate Fluctuations,Economics,59.0,15.0,False,1.0,"['ST102', 'EC221', 'FM201', 'EC202', 'MA100', 'EC220', 'ST107', 'EC201', 'EC210', 'MA107', 'ST109']",
+Public Economics,Economics,249.0,21.0,False,1.0,"['EC221', 'EC202', 'EC201', 'EC220']",
 Economics of Diversity and Discrimination,Economics,,,False,0.5,[],
 Environmental Economics,Economics,35.0,12.0,False,1.0,[],
-Problems of Applied Econometrics,Economics,22.0,11.0,False,1.0,"['EC202', 'EC201', 'EC221', 'EC220']",
-Advanced Macroeconomics,Economics,23.0,6.0,False,0.5,"['MA107', 'EC210', 'EC221', 'EC220', 'MA100', 'FM201']",
-Economic Policy in the Global Economy,Economics,27.0,7.0,False,0.5,"['EC202', 'EC201', 'EC221', 'EC220']",
-Econometric Theory A,Economics,7.0,9.0,False,0.5,"['MA100', 'ST109', 'ST102']",
-Econometric Theory B,Economics,8.0,10.0,False,0.5,"['MA100', 'ST109', 'ST102']",
+Problems of Applied Econometrics,Economics,22.0,11.0,False,1.0,"['EC221', 'EC202', 'EC201', 'EC220']",
+Advanced Macroeconomics,Economics,23.0,6.0,False,0.5,"['EC221', 'FM201', 'MA100', 'EC220', 'EC210', 'MA107']",
+Economic Policy in the Global Economy,Economics,27.0,7.0,False,0.5,"['EC221', 'EC202', 'EC201', 'EC220']",
+Econometric Theory A,Economics,7.0,9.0,False,0.5,"['ST102', 'ST109', 'MA100']",
+Econometric Theory B,Economics,8.0,10.0,False,0.5,"['ST102', 'ST109', 'MA100']",
 International Trade,Economics,55.0,9.0,False,0.5,"['EC202', 'EC201']",
 International Macroeconomics,Economics,65.0,22.0,False,0.5,"['FM201', 'EC210']",
 "The Internationalisation of Economic Growth, 1870 to the present day",Economic History,131.0,12.0,False,1.0,[],
@@ -89,14 +89,14 @@ Business and Economic Performance since 1945: Britain in International Context,E
 Atlantic World Slavery,Economic History,10.0,11.0,18,1.0,[],
 Finance,Finance,499.0,20.0,False,0.5,[],
 Principles of Finance I,Finance,,,False,0.5,[],FM214
-Principles of Finance II,Finance,,,False,0.5,"['FM101', 'FM210']",FM215
-Principles of Finance I,Finance,,,False,0.5,"['MA107', 'ST107', 'ST102', 'ST109', 'MA100', 'MA108']",FM210
-Principles of Finance I,Finance,,,False,0.5,"['MA107', 'ST107', 'ST102', 'ST109', 'MA100', 'MA108']",FM210
+Principles of Finance II,Finance,,,False,0.5,"['FM210', 'FM101']",FM215
+Principles of Finance I,Finance,,,False,0.5,"['ST102', 'MA100', 'MA108', 'ST107', 'ST109', 'MA107']",FM210
+Principles of Finance I,Finance,,,False,0.5,"['ST102', 'MA100', 'MA108', 'ST107', 'ST109', 'MA107']",FM210
 Principles of Finance II,Finance,,,False,0.5,['FM214'],FM211
-"Corporate Finance, Investments and Financial Markets I",Finance,,,False,0.5,"['FM211', 'FM213', 'FM215', 'FM214', 'FM212', 'FM210']",
-"Corporate Finance, Investments and Financial Markets II",Finance,,,False,0.5,"['FM212', 'FM213', 'FM310']",
-Risk Management and Modelling,Finance,157.0,27.0,False,0.5,"['FM213', 'ST201', 'ST102', 'MA100', 'FM212']",ST330
-Derivatives,Finance,132.0,67.0,False,0.5,"['MA100', 'FM212', 'FM213']",ST330
+"Corporate Finance, Investments and Financial Markets I",Finance,,,False,0.5,"['FM213', 'FM211', 'FM210', 'FM212', 'FM214', 'FM215']",
+"Corporate Finance, Investments and Financial Markets II",Finance,,,False,0.5,"['FM213', 'FM212', 'FM310']",
+Risk Management and Modelling,Finance,157.0,27.0,False,0.5,"['ST102', 'FM213', 'ST201', 'MA100', 'FM212']",ST330
+Derivatives,Finance,132.0,67.0,False,0.5,"['FM213', 'FM212', 'MA100']",ST330
 Introduction to Political Theory,Government,316.0,15.0,False,1.0,[],
 Analytical Politics,Government,34.0,12.0,85,1.0,['GV101'],
 Democracy and Democratisation,Government,83.0,17.0,False,1.0,['GV101'],
@@ -110,9 +110,9 @@ British Government,Government,31.0,11.0,68,1.0,['GV101'],
 Politics of Trade in Comparative Perspective,Government,12.0,6.0,34,0.5,[],
 Applied Quantitative Methods for Political Science,Government,14.0,14.0,False,0.5,"['MA107', 'ST107']",
 Topics in Political Economy,Government,9.0,9.0,17,0.5,['GV225'],
-Data Science Applications to Politics Research,Government,16.0,8.0,34,0.5,"['GV101', 'GV249']",
+Data Science Applications to Politics Research,Government,16.0,8.0,34,0.5,"['GV249', 'GV101']",
 Politics of Public Lands,Government,,,False,0.5,"['GV101', 'GV100']",
-Advanced Topics in Government: Executive Politics,Government,,,False,0.5,"['GV101', 'GV100']",
+Advanced Topics in Government: Executive Politics,Government,,,False,0.5,"['GV100', 'GV101']",
 Introduction to Geography,Geography and Environment,95.0,15.0,100,1.0,[],
 Contemporary Europe,Geography and Environment,73.0,18.0,False,1.0,[],
 "Environmental Change: Past, Present and Future",Geography and Environment,40.0,28.0,False,1.0,[],
@@ -122,8 +122,8 @@ Introduction to Global Development,Geography and Environment,92.0,16.0,100,1.0,[
 Political Geography,Geography and Environment,32.0,11.0,False,0.5,['GY100'],
 Urban Geography and Globalisation,Geography and Environment,66.0,17.0,70,0.5,[],
 "Economy, Society and Place",Geography and Environment,66.0,17.0,70,0.5,[],
-"The Economic Geography of Trade, Production and Development",Geography and Environment,72.0,16.0,80,0.5,"['EC102', 'ST107', 'EC100']",
-The Economics of Cities,Geography and Environment,83.0,14.0,95,0.5,"['EC102', 'ST107', 'EC100']",
+"The Economic Geography of Trade, Production and Development",Geography and Environment,72.0,16.0,80,0.5,"['EC100', 'EC102', 'ST107']",
+The Economics of Cities,Geography and Environment,83.0,14.0,95,0.5,"['EC100', 'EC102', 'ST107']",
 Pathways in Human Geography,Geography and Environment,47.0,16.0,False,0.5,"['GY100', 'GY140']",
 Environment: Science and Society,Geography and Environment,36.0,25.0,False,1.0,[],
 Applied Environmental Economics,Geography and Environment,78.0,27.0,100,1.0,[],
@@ -132,8 +132,8 @@ The Economic Geography of Growth and Development,Geography and Environment,,,Fal
 The Political Geography of Development,Geography and Environment,,,False,0.5,[],
 Urban Politics,Geography and Environment,57.0,15.0,65,0.5,[],
 The Political Economy of Urbanisation,Geography and Environment,40.0,14.0,False,0.5,[],
-"Firms and Economic Geography: Location, Technology and Innovation",Geography and Environment,45.0,17.0,False,0.5,"['EC102', 'GY209', 'EC202', 'EC201', 'GY222', 'EC100']",
-The Economics of Housing Markets and Migration,Geography and Environment,46.0,15.0,False,0.5,"['EC201', 'GY210', 'GY209', 'EC202', 'EC102', 'GY222', 'EC100']",
+"Firms and Economic Geography: Location, Technology and Innovation",Geography and Environment,45.0,17.0,False,0.5,"['EC102', 'GY222', 'EC202', 'GY209', 'EC201', 'EC100']",
+The Economics of Housing Markets and Migration,Geography and Environment,46.0,15.0,False,0.5,"['GY210', 'EC102', 'GY222', 'EC202', 'GY209', 'EC201', 'EC100']",
 "Gender, Space and Power",Geography and Environment,39.0,14.0,45,0.5,[],
 Geographies of Urban Violence,Geography and Environment,34.0,9.0,False,0.5,[],
 Sustainable Business and Finance,Geography and Environment,84.0,89.0,90,0.5,[],
@@ -186,7 +186,7 @@ Advanced Torts,Law School,21.0,21.0,25,1.0,['LL104'],
 Medical Law,Law School,94.0,12.0,120,1.0,[],
 Information Technology and the Law,Law School,58.0,10.0,90,1.0,[],
 Conflict of Laws,Law School,24.0,24.0,25,1.0,[],
-Commercial Law,Law School,,,False,0.5,"['LL275', 'LL276', 'LL142']",
+Commercial Law,Law School,,,False,0.5,"['LL276', 'LL142', 'LL275']",
 Freedom and the Law in Britain,Law School,,,False,0.5,[],
 European Human Rights Law,Law School,,,False,0.5,[],
 Technology Law and Regulation,Law School,,,False,0.5,[],
@@ -247,12 +247,12 @@ French Language and Society 5 (mastery),Language Centre,6.0,7.0,12,1.0,['LN230']
 Mandarin Language and Society 5 (Mastery),Language Centre,,,False,1.0,['LN240'],
 Mathematical Methods,Mathematics,444.0,15.0,False,1.0,[],"MA108,MA207,MA107"
 Mathematical Proof and Analysis,Mathematics,63.0,29.0,False,0.5,"['MA100', 'MA107', 'MA108']",MA103
-Introduction to Abstract Mathematics,Mathematics,168.0,29.0,False,1.0,"['MA100', 'MA108', 'MA160P']",MA102
+Introduction to Abstract Mathematics,Mathematics,168.0,29.0,False,1.0,"['MA160P', 'MA100', 'MA108']",MA102
 Quantitative Methods (Mathematics),Mathematics,462.0,16.0,False,0.5,"['MA100', 'MA108']","MA108,MA100"
 Real Analysis,Mathematics,165.0,17.0,False,0.5,"['MA103', 'MA102']",
 Further Quantitative Methods (Mathematics),Mathematics,92.0,18.0,False,0.5,"['MA100', 'MA107', 'MA108']","MA100,MA108"
-Optimisation Theory,Mathematics,62.0,16.0,False,0.5,"['MA100', 'MA103', 'MA203']",
-Differential Equations,Mathematics,115.0,19.0,False,0.5,"['MA103', 'MA102', 'MA212', 'MA203', 'MA100']",
+Optimisation Theory,Mathematics,62.0,16.0,False,0.5,"['MA203', 'MA100', 'MA103']",
+Differential Equations,Mathematics,115.0,19.0,False,0.5,"['MA103', 'MA212', 'MA203', 'MA100', 'MA102']",
 Discrete Mathematics,Mathematics,11.0,13.0,False,0.5,['MA103'],
 Algebra and Number Theory,Mathematics,11.0,11.0,False,0.5,"['MA100', 'MA103']",
 Further Mathematical Methods,Mathematics,274.0,17.0,False,1.0,['MA100'],
@@ -268,22 +268,22 @@ Partial Differential Equations,Mathematics,16.0,17.0,False,0.5,"['MA212', 'MA203
 Mathematics of Networks,Mathematics,8.0,9.0,False,0.5,"['MA100', 'MA103', 'MA108', 'MA102']",
 Measure Theoretic Probability,Mathematics,21.0,11.0,False,0.5,['MA203'],
 Mathematics of Finance and Valuation,Mathematics,17.0,9.0,False,0.5,['MA321'],
-Mathematical Modelling and Simulation,Mathematics,42.0,20.0,45,0.5,"['MA213', 'ST107', 'MA208']",MA334
-Game Theory for Collective Decisions,Mathematics,20.0,23.0,False,0.5,"['MA100', 'MA107', 'MA301']",
+Mathematical Modelling and Simulation,Mathematics,42.0,20.0,45,0.5,"['MA213', 'MA208', 'ST107']",MA334
+Game Theory for Collective Decisions,Mathematics,20.0,23.0,False,0.5,"['MA301', 'MA100', 'MA107']",
 Optimisation for Machine Learning,Mathematics,7.0,7.0,False,0.5,['MA208'],
 "Media, Communication and Power",Media and Communications,,3.0,False,0.5,[],
 Econometrics: Theory and Applications,Management,198.0,17.0,204,1.0,"['MA107', 'ST107']","EC2C3,EC2C4"
-"Firms, Management and Competitive Advantage",Management,33.0,13.0,60,0.5,"['EC102', 'EC100']",
-Managerial Economics,Management,177.0,18.0,170,1.0,"['EC102', 'MA107', 'EC202', 'EC201', 'EC100']","EC2A3,EC2A5"
+"Firms, Management and Competitive Advantage",Management,33.0,13.0,60,0.5,"['EC100', 'EC102']",
+Managerial Economics,Management,177.0,18.0,170,1.0,"['EC102', 'EC202', 'EC201', 'MA107', 'EC100']","EC2A3,EC2A5"
 E-business,Management,70.0,14.0,102,0.5,[],
 Corporate Social Responsibility and International Labour Standards,Management,46.0,14.0,60,0.5,[],
 Marketing,Management,265.0,17.0,272,0.5,[],
 Information Systems,Management,230.0,15.0,250,0.5,[],
 Human Resource Management,Management,172.0,20.0,180,0.5,['MG105'],
 Managing the Stone-Age Brain,Management,,,False,0.5,[],
-Strategy,Management,142.0,14.0,170,1.0,"['EC201', 'MG207', 'MA107', 'ST107', 'EC202', 'EC102', 'EC100']",
+Strategy,Management,142.0,14.0,170,1.0,"['EC102', 'EC202', 'MG207', 'ST107', 'EC201', 'MA107', 'EC100']",
 Topics in Management Research,Management,65.0,19.0,75,0.5,[],
-International Business Strategy and Emerging Markets,Management,155.0,35.0,175,0.5,"['EC102', 'MG307', 'EC100']",MG307
+International Business Strategy and Emerging Markets,Management,155.0,35.0,175,0.5,"['EC100', 'EC102', 'MG307']",MG307
 Innovation and Technology Management,Management,94.0,15.0,105,0.5,[],
 International Context of Management,Management,36.0,16.0,48,0.5,['MG303'],MG303
 Simulations for Managerial Decisions,Management,50.0,15.0,75,0.5,['ST107'],
@@ -297,8 +297,8 @@ Social Network Analysis,Methodology,11.0,10.0,False,0.5,[],
 Foundations of Behavioural Science,Psychological and Behavioural Science,59.0,16.0,64,1.0,[],
 Foundations of Psychological Science,Psychological and Behavioural Science,57.0,14.0,64,1.0,[],
 Social Psychology,Psychological and Behavioural Science,,,False,1.0,[],
-Cognition and Culture,Psychological and Behavioural Science,,,False,0.5,"['PB100', 'PB101']",
-Creativity and Innovation,Psychological and Behavioural Science,,,False,0.5,"['PB100', 'PB101']",
+Cognition and Culture,Psychological and Behavioural Science,,,False,0.5,"['PB101', 'PB100']",
+Creativity and Innovation,Psychological and Behavioural Science,,,False,0.5,"['PB101', 'PB100']",
 The Big Questions: An Introduction to Philosophy,"Philosophy, Logic and Scientific Method",183.0,13.0,False,1.0,[],
 Historical and Global Perspectives on Philosophy,"Philosophy, Logic and Scientific Method",95.0,16.0,False,0.5,[],
 Introduction to Logic,"Philosophy, Logic and Scientific Method",233.0,17.0,False,0.5,[],
@@ -307,7 +307,7 @@ Philosophy of Science,"Philosophy, Logic and Scientific Method",42.0,14.0,False,
 "Philosophy, Morals and Politics","Philosophy, Logic and Scientific Method",116.0,16.0,False,1.0,[],
 Philosophy and Public Policy,"Philosophy, Logic and Scientific Method",105.0,15.0,False,1.0,[],
 Mind and Metaphysics,"Philosophy, Logic and Scientific Method",31.0,17.0,False,0.5,[],
-Epistemology,"Philosophy, Logic and Scientific Method",52.0,14.0,False,0.5,"['PH104', 'PH111', 'PH101']",
+Epistemology,"Philosophy, Logic and Scientific Method",52.0,14.0,False,0.5,"['PH111', 'PH101', 'PH104']",
 Business and Organisational Ethics,"Philosophy, Logic and Scientific Method",133.0,16.0,136,0.5,[],
 Philosophy of Society,"Philosophy, Logic and Scientific Method",47.0,17.0,False,0.5,['PH103'],
 "Genes, Brains and Society","Philosophy, Logic and Scientific Method",24.0,8.0,False,0.5,[],
@@ -315,7 +315,7 @@ Einstein for Everyone: From time travel to the edge of the universe,"Philosophy,
 Physics and Uncertainty: From Quantum Jumps to Stock Market Crashes,"Philosophy, Logic and Scientific Method",48.0,13.0,False,0.5,[],
 Set Theory,"Philosophy, Logic and Scientific Method",10.0,10.0,False,0.5,"['PH111', 'MA103', 'MA102']",
 Advanced Logic,"Philosophy, Logic and Scientific Method",18.0,9.0,False,0.5,"['PH111', 'MA103', 'MA102']",
-Philosophy of Language,"Philosophy, Logic and Scientific Method",,,False,0.5,"['PH104', 'PH111', 'PH101']",
+Philosophy of Language,"Philosophy, Logic and Scientific Method",,,False,0.5,"['PH111', 'PH101', 'PH104']",
 "Anarchy, Authority and Evidence: Topics in Philosophy of Law ","Philosophy, Logic and Scientific Method",55.0,16.0,False,0.5,[],
 The Ethics of Data and AI ,"Philosophy, Logic and Scientific Method",80.0,16.0,85,0.5,[],
 Animal Minds and Animal Ethics,"Philosophy, Logic and Scientific Method",,,False,0.5,[],
@@ -341,36 +341,36 @@ Social Security Policies,Social Policy,13.0,15.0,15,0.5,[],
 Behavioural Public Policy,Social Policy,17.0,17.0,15,0.5,[],
 Punishment and Penal Policy,Social Policy,16.0,16.0,15,0.5,[],
 "Riots, Disorder and Urban Violence",Social Policy,,,False,0.5,[],
-Programming for Data Science,Statistics,,,False,0.5,"['ST107', 'ST102']",
-Programming for Data Science,Statistics,101.0,26.0,120,0.5,"['ST107', 'ST102']",
-Programming for Data Science,Statistics,33.0,18.0,60,0.5,"['ST107', 'ST102']",
+Programming for Data Science,Statistics,,,False,0.5,"['ST102', 'ST107']",
+Programming for Data Science,Statistics,101.0,26.0,120,0.5,"['ST102', 'ST107']",
+Programming for Data Science,Statistics,33.0,18.0,60,0.5,"['ST102', 'ST107']",
 Elementary Statistical Theory,Statistics,405.0,21.0,False,1.0,[],"ST110,ST102,ST109"
 Quantitative Methods (Statistics),Statistics,494.0,21.0,False,0.5,[],"ST110,ST102,ST109"
 Elementary Statistical Theory I,Statistics,187.0,17.0,False,0.5,[],"ST102,ST107"
 Elementary Statistical Theory II,Statistics,2.0,1.0,False,0.5,['ST109'],"ST107,ST102"
-Managing and Visualising Data,Statistics,77.0,26.0,90,0.5,"['ST109', 'ST107', 'ST102']",
+Managing and Visualising Data,Statistics,77.0,26.0,90,0.5,"['ST102', 'ST109', 'ST107']",
 Statistical Models and Data Analysis,Statistics,23.0,12.0,False,0.5,['ST107'],"ST211,DS202"
-"Probability, Distribution Theory and Inference",Statistics,186.0,23.0,False,1.0,"['MA100', 'ST109', 'MA107', 'ST102']",
-Sample Surveys and Experiments,Statistics,58.0,12.0,False,0.5,"['ST107', 'SP201']",ST307
-Probability and Distribution Theory,Statistics,61.0,7.0,False,0.5,"['MA100', 'ST109', 'MA107', 'ST102']",
+"Probability, Distribution Theory and Inference",Statistics,186.0,23.0,False,1.0,"['ST102', 'ST109', 'MA100', 'MA107']",
+Sample Surveys and Experiments,Statistics,58.0,12.0,False,0.5,"['SP201', 'ST107']",ST307
+Probability and Distribution Theory,Statistics,61.0,7.0,False,0.5,"['ST102', 'ST109', 'MA100', 'MA107']",
 Databases,Statistics,71.0,25.0,90,0.5,['ST101'],
-Applied Regression,Statistics,90.0,23.0,90,0.5,"['ST109', 'ST102']",ST201
-"Introduction to Pricing, Hedging and Optimization",Statistics,46.0,23.0,False,0.5,"['ST202', 'MA203']",
-Actuarial Investigations: Financial,Statistics,101.0,17.0,130,0.5,"['MA100', 'ST109', 'MA107', 'ST102']",
-Survival Models,Statistics,111.0,19.0,130,0.5,"['MA100', 'ST109', 'MA107', 'ST102']",
-Regression and Generalised Linear Models,Statistics,85.0,21.0,False,0.5,"['ST202', 'MA100']",
-Actuarial Mathematics (Life),Statistics,73.0,25.0,False,0.5,"['ST202', 'ST227', 'ST226', 'ST206']",
-Stochastic Processes,Statistics,133.0,45.0,False,0.5,"['ST202', 'ST206']",
-Stochastic Simulation,Statistics,67.0,33.0,60,0.5,"['ST202', 'ST302', 'ST206', 'ST306']",
+Applied Regression,Statistics,90.0,23.0,90,0.5,"['ST102', 'ST109']",ST201
+"Introduction to Pricing, Hedging and Optimization",Statistics,46.0,23.0,False,0.5,"['MA203', 'ST202']",
+Actuarial Investigations: Financial,Statistics,101.0,17.0,130,0.5,"['ST102', 'ST109', 'MA100', 'MA107']",
+Survival Models,Statistics,111.0,19.0,130,0.5,"['ST102', 'ST109', 'MA100', 'MA107']",
+Regression and Generalised Linear Models,Statistics,85.0,21.0,False,0.5,"['MA100', 'ST202']",
+Actuarial Mathematics (Life),Statistics,73.0,25.0,False,0.5,"['ST206', 'ST227', 'ST226', 'ST202']",
+Stochastic Processes,Statistics,133.0,45.0,False,0.5,"['ST206', 'ST202']",
+Stochastic Simulation,Statistics,67.0,33.0,60,0.5,"['ST206', 'ST302', 'ST306', 'ST202']",
 Time Series and Forecasting,Statistics,52.0,13.0,False,0.5,[],
-Actuarial Mathematics (General),Statistics,47.0,16.0,False,0.5,"['ST202', 'ST302']",
+Actuarial Mathematics (General),Statistics,47.0,16.0,False,0.5,"['ST302', 'ST202']",
 Aspects of Market Research,Statistics,19.0,6.0,20,0.5,['ST107'],"ST205,ST327"
-Bayesian Inference,Statistics,63.0,21.0,75,0.5,"['MA107', 'ST202', 'ST102', 'ST109', 'MA100']",
+Bayesian Inference,Statistics,63.0,21.0,75,0.5,"['ST102', 'MA100', 'ST109', 'MA107', 'ST202']",
 Elementary Data Analytics,Statistics,65.0,16.0,75,0.5,['ST107'],ST310
-Machine Learning,Statistics,90.0,23.0,100,0.5,"['ST109', 'ST102']",ST309
-Artificial Intelligence,Statistics,40.0,20.0,30,0.5,"['ST101', 'ST109', 'ST102']",
-Ethics for Data Science,Statistics,37.0,20.0,False,0.5,"['ST206', 'ST202', 'MA212', 'EC221', 'ST102', 'EC220', 'MA100']",
-Multilevel and Longitudinal Models,Statistics,23.0,21.0,30,0.5,"['ST201', 'ST107', 'ST102', 'ST109', 'ST211']",
-Financial Statistics,Statistics,65.0,33.0,False,0.5,"['ST202', 'ST211', 'ST206']",
-Market Research: An Integrated Approach,Statistics,58.0,15.0,60,1.0,"['ST107', 'ST102', 'ST203', 'ST109', 'MG202', 'MG205']",ST307
-Stochastic and Actuarial Methods in Finance,Statistics,61.0,31.0,False,1.0,"['ST202', 'ST302', 'ST206']","FM231,FM322"
+Machine Learning,Statistics,90.0,23.0,100,0.5,"['ST102', 'ST109']",ST309
+Artificial Intelligence,Statistics,40.0,20.0,30,0.5,"['ST102', 'ST109', 'ST101']",
+Ethics for Data Science,Statistics,37.0,20.0,False,0.5,"['ST102', 'EC221', 'ST206', 'MA212', 'MA100', 'EC220', 'ST202']",
+Multilevel and Longitudinal Models,Statistics,23.0,21.0,30,0.5,"['ST102', 'ST201', 'ST107', 'ST109', 'ST211']",
+Financial Statistics,Statistics,65.0,33.0,False,0.5,"['ST206', 'ST211', 'ST202']",
+Market Research: An Integrated Approach,Statistics,58.0,15.0,60,1.0,"['ST102', 'MG202', 'MG205', 'ST203', 'ST107', 'ST109']",ST307
+Stochastic and Actuarial Methods in Finance,Statistics,61.0,31.0,False,1.0,"['ST206', 'ST302', 'ST202']","FM231,FM322"
